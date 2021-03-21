@@ -1,0 +1,58 @@
+mysql root@(none):covid_data> select (COUNT(*)/30) as `Number of Counties` , max(CDC.`Cases`) as `Max Cases`,   max(CDC.`Cases`)/(COUNT(*)/30) as `Average`, S.`Name` as `State_Name` from `County_Date_Cases` as CDC left join `County` as C on CDC.`County_ID` = C.`County_ID` left join `State` as S on S.`State_ID` = C.`State_ID` group by C.`State_ID`order by `Number of Counties` desc;
+
++--------------------+-----------+------------+----------------+
+| Number of Counties | Max Cases | Average    | State_Name     |
++--------------------+-----------+------------+----------------+
+| 254.0000           | 359382    | 1414.8898  | Texas          |
+| 159.0000           | 93796     | 589.9119   | Georgia        |
+| 133.0000           | 67693     | 508.9699   | Virginia       |
+| 120.0000           | 75148     | 626.2333   | Kentucky       |
+| 115.0000           | 89373     | 777.1565   | Missouri       |
+| 105.0000           | 54730     | 521.2381   | Kansas         |
+| 102.0000           | 478884    | 4694.9412  | Illinois       |
+| 100.0000           | 97954     | 979.5400   | North Carolina |
+| 99.0000            | 50544     | 510.5455   | Iowa           |
+| 95.0000            | 90336     | 950.9053   | Tennessee      |
+| 93.0000            | 64381     | 692.2688   | Nebraska       |
+| 92.0000            | 91559     | 995.2065   | Indiana        |
+| 88.0000            | 113037    | 1284.5114  | Ohio           |
+| 87.0000            | 101682    | 1168.7586  | Minnesota      |
+| 83.0000            | 103587    | 1248.0361  | Michigan       |
+| 82.0000            | 19829     | 241.8171   | Mississippi    |
+| 77.0000            | 81713     | 1061.2078  | Oklahoma       |
+| 75.0000            | 37642     | 501.8933   | Arkansas       |
+| 72.0000            | 107719    | 1496.0972  | Wisconsin      |
+| 67.0000            | 72033     | 1075.1194  | Alabama        |
+| 67.0000            | 419478    | 6260.8657  | Florida        |
+| 67.0000            | 119874    | 1789.1642  | Pennsylvania   |
+| 66.0000            | 28333     | 429.2879   | South Dakota   |
+| 64.0000            | 44226     | 691.0313   | Louisiana      |
+| 64.0000            | 60544     | 946.0000   | Colorado       |
+| 58.0000            | 1203799   | 20755.1552 | California     |
+| 57.0000            | 166497    | 2921.0000  | New York       |
+| 56.0000            | 16323     | 291.4821   | Montana        |
+| 55.0000            | 12226     | 222.2909   | West Virginia  |
+| 53.0000            | 21504     | 405.7358   | North Dakota   |
+| 46.0000            | 65207     | 1417.5435  | South Carolina |
+| 44.0000            | 47230     | 1073.4091  | Idaho          |
+| 39.0000            | 85017     | 2179.9231  | Washington     |
+| 36.0000            | 32089     | 891.3611   | Oregon         |
+| 33.0000            | 53036     | 1607.1515  | New Mexico     |
+| 29.0000            | 139976    | 4826.7586  | Utah           |
+| 25.0000            | 26744     | 1069.7600  | Alaska         |
+| 24.0000            | 74356     | 3098.1667  | Maryland       |
+| 23.0000            | 8254      | 358.8696   | Wyoming        |
+| 21.0000            | 80339     | 3825.6667  | New Jersey     |
+| 17.0000            | 228665    | 13450.8824 | Nevada         |
+| 16.0000            | 12857     | 803.5625   | Maine          |
+| 15.0000            | 516216    | 34414.4000 | Arizona        |
+| 14.0000            | 5108      | 364.8571   | Vermont        |
+| 14.0000            | 113553    | 8110.9286  | Massachusetts  |
+| 10.0000            | 28968     | 2896.8000  | New Hampshire  |
+| 8.0000             | 81783     | 10222.8750 | Connecticut    |
+| 5.0000             | 83108     | 16621.6000 | Rhode Island   |
+| 5.0000             | 22367     | 4473.4000  | Hawaii         |
+| 3.0000             | 50614     | 16871.3333 | Delaware       |
+| 1.0000             | 41419     | 41419.0000 | DC             |
++--------------------+-----------+------------+----------------+
+mysql root@(none):covid_data> notee;

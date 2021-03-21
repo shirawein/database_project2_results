@@ -1,0 +1,31 @@
+mysql root@(none):covid_data> select max(Cases.`Cases`) as `Cases`, C.`Name` as `County_Name` from `County_Date_Cases` as Cases left join `County` as C on Cases.`County_ID` = C.`County_ID` left join `State` as S on S.`State_ID` = C.`State_ID` where S.`Name` like "Maryland%" group by C.`County_ID`;
+
++-------+-----------------+
+| Cases | County_Name     |
++-------+-----------------+
+| 6422  | Allegany        |
+| 36345 | Anne Arundel    |
+| 51764 | Baltimore       |
+| 3702  | Calvert         |
+| 2058  | Caroline        |
+| 7666  | Carroll         |
+| 5061  | Cecil           |
+| 9076  | Charles         |
+| 2376  | Dorchester      |
+| 17205 | Frederick       |
+| 1848  | Garrett         |
+| 12704 | Harford         |
+| 16094 | Howard          |
+| 1141  | Kent            |
+| 64032 | Montgomery      |
+| 74356 | Prince George's |
+| 2602  | Queen Anne's    |
+| 5201  | St. Mary's      |
+| 2401  | Somerset        |
+| 1907  | Talbot          |
+| 12522 | Washington      |
+| 6821  | Wicomico        |
+| 3284  | Worcester       |
+| 40913 | Baltimore city  |
++-------+-----------------+
+mysql root@(none):covid_data> notee;
