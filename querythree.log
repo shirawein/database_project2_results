@@ -1,0 +1,58 @@
+mysql root@(none):covid_data> select sum(dc.`Deaths`), dc.`State_Name` from deathscounty as dc join `State` as S where S.`Name` = dc.`State_Name` group by S.`Name`;
+
++------------------+----------------+
+| sum(dc.`Deaths`) | State_Name     |
++------------------+----------------+
+| 10151            | Alabama        |
+| 291              | Alaska         |
+| 16328            | Arizona        |
+| 5449             | Arkansas       |
+| 54217            | California     |
+| 6083             | Colorado       |
+| 7694             | Connecticut    |
+| 1473             | Delaware       |
+| 1030             | DC             |
+| 31685            | Florida        |
+| 17343            | Georgia        |
+| 442              | Hawaii         |
+| 1883             | Idaho          |
+| 22782            | Illinois       |
+| 12739            | Indiana        |
+| 5560             | Iowa           |
+| 3796             | Kansas         |
+| 4962             | Kentucky       |
+| 9749             | Louisiana      |
+| 708              | Maine          |
+| 7900             | Maryland       |
+| 16408            | Massachusetts  |
+| 16638            | Michigan       |
+| 6550             | Minnesota      |
+| 6809             | Mississippi    |
+| 7983             | Missouri       |
+| 1382             | Montana        |
+| 2225             | Nebraska       |
+| 5041             | Nevada         |
+| 1179             | New Hampshire  |
+| 23574            | New Jersey     |
+| 3799             | New Mexico     |
+| 18034            | New York       |
+| 11523            | North Carolina |
+| 1450             | North Dakota   |
+| 18203            | Ohio           |
+| 4535             | Oklahoma       |
+| 2303             | Oregon         |
+| 24398            | Pennsylvania   |
+| 2502             | Rhode Island   |
+| 8755             | South Carolina |
+| 1900             | South Dakota   |
+| 11343            | Tennessee      |
+| 45447            | Texas          |
+| 1969             | Utah           |
+| 208              | Vermont        |
+| 9601             | Virginia       |
+| 5113             | Washington     |
+| 2329             | West Virginia  |
+| 7113             | Wisconsin      |
+| 683              | Wyoming        |
++------------------+----------------+
+mysql root@(none):covid_data> notee;
