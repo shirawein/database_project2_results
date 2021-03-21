@@ -1,0 +1,1836 @@
+mysql root@(none):covid_data> Select `County_ID`, `College_ID`, `Name`  From `College`;
++-----------+------------+-------------------------------------------------------------------------------+
+| County_ID | College_ID | Name                                                                          |
++-----------+------------+-------------------------------------------------------------------------------+
+| 1089      | 40663      | Alabama A&M University                                                        |
+| 1101      | 40664      | Alabama State University                                                      |
+| 1083      | 40665      | Athens State University                                                       |
+| 1081      | 40666      | Auburn University                                                             |
+| 1101      | 40667      | Auburn University at Montgomery                                               |
+| 1127      | 40668      | Bevill State Community College                                                |
+| 1073      | 40669      | Birmingham-Southern College                                                   |
+| 1083      | 40670      | Calhoun Community College                                                     |
+| 1123      | 40671      | Central Alabama Community College                                             |
+| 1031      | 40672      | Enterprise State Community College                                            |
+| 1055      | 40673      | Gadsden State Community College                                               |
+| 1101      | 40674      | Huntingdon College                                                            |
+| 1015      | 40675      | Jacksonville State University                                                 |
+| 1039      | 40676      | Lurleen B. Wallace Community College                                          |
+| 1105      | 40677      | Marion Military Institute                                                     |
+| 1073      | 40678      | Miles College                                                                 |
+| 1073      | 40679      | Samford University                                                            |
+| 1095      | 40680      | Snead State Community College                                                 |
+| 1111      | 40681      | Southern Union State Community College                                        |
+| 1097      | 40682      | Spring Hill College                                                           |
+| 1109      | 40683      | Troy University                                                               |
+| 1069      | 40684      | Troy University Dothan                                                        |
+| 1101      | 40685      | Troy University Montgomery                                                    |
+| 1113      | 40686      | Troy University Phenix City                                                   |
+| 1087      | 40687      | Tuskegee University                                                           |
+| 1125      | 40688      | University of Alabama                                                         |
+| 1073      | 40689      | University of Alabama at Birmingham                                           |
+| 1089      | 40690      | University of Alabama in Huntsville                                           |
+| 1117      | 40691      | University of Montevallo                                                      |
+| 1077      | 40692      | University of North Alabama                                                   |
+| 1097      | 40693      | University of South Alabama                                                   |
+| 1119      | 40694      | University of West Alabama                                                    |
+| 2185      | 40695      | Ilisagvik College                                                             |
+| 2090      | 40696      | University of Alaska Fairbanks                                                |
+| 2110      | 40697      | University of Alaska Southeast                                                |
+| 4013      | 40698      | Arizona State University                                                      |
+| 4027      | 40699      | Arizona Western College                                                       |
+| 4001      | 40700      | Dine College                                                                  |
+| 4025      | 40701      | Embry-Riddle Aeronautical University at Prescott                              |
+| 4013      | 40702      | Grand Canyon University                                                       |
+| 4013      | 40703      | Midwestern University at Glendale                                             |
+| 4015      | 40704      | Mohave Community College                                                      |
+| 4005      | 40705      | Northern Arizona University                                                   |
+| 4019      | 40706      | University of Arizona                                                         |
+| 5093      | 40707      | Arkansas Northeastern College                                                 |
+| 5031      | 40708      | Arkansas State University                                                     |
+| 5067      | 40709      | Arkansas State University-Newport                                             |
+| 5115      | 40710      | Arkansas Tech University                                                      |
+| 5121      | 40711      | Black River Technical College                                                 |
+| 5045      | 40712      | Central Baptist College                                                       |
+| 5133      | 40713      | Cossatot Community College of the University of Arkansas                      |
+| 5145      | 40714      | Harding University                                                            |
+| 5019      | 40715      | Henderson State University                                                    |
+| 5045      | 40716      | Hendrix College                                                               |
+| 5007      | 40717      | John Brown University                                                         |
+| 5063      | 40718      | Lyon College                                                                  |
+| 5051      | 40719      | National Park College                                                         |
+| 5009      | 40720      | North Arkansas College                                                        |
+| 5007      | 40721      | NorthWest Arkansas Community College                                          |
+| 5019      | 40722      | Ouachita Baptist University                                                   |
+| 5139      | 40723      | South Arkansas Community College                                              |
+| 5027      | 40724      | Southern Arkansas University                                                  |
+| 5143      | 40725      | University of Arkansas                                                        |
+| 5113      | 40726      | University of Arkansas Community College Rich Mountain                        |
+| 5029      | 40727      | University of Arkansas Community College at Morrilton                         |
+| 5091      | 40728      | University of Arkansas Hope-Texarkana                                         |
+| 5131      | 40729      | University of Arkansas at Fort Smith                                          |
+| 5119      | 40730      | University of Arkansas at Little Rock                                         |
+| 5043      | 40731      | University of Arkansas at Monticello                                          |
+| 5069      | 40732      | University of Arkansas at Pine Bluff                                          |
+| 5119      | 40733      | University of Arkansas for Medical Sciences                                   |
+| 5119      | 40734      | University of Arkansas-Pulaski Technical College                              |
+| 5029      | 40735      | University of Central Arkansas                                                |
+| 5071      | 40736      | University of the Ozarks                                                      |
+| 6075      | 40737      | Academy of Art University                                                     |
+| 6037      | 40738      | Antelope Valley College                                                       |
+| 6037      | 40739      | Azusa Pacific University                                                      |
+| 6029      | 40740      | Bakersfield College                                                           |
+| 6037      | 40741      | Biola University                                                              |
+| 6065      | 40742      | California Baptist University                                                 |
+| 6037      | 40743      | California Institute of Technology                                            |
+| 6111      | 40744      | California Lutheran University                                                |
+| 6079      | 40745      | California Polytechnic State University, San Luis Obispo                      |
+| 6037      | 40746      | California State Polytechnic University, Pomona                               |
+| 6095      | 40747      | California State University Maritime Academy                                  |
+| 6029      | 40748      | California State University, Bakersfield                                      |
+| 6111      | 40749      | California State University, Channel Islands                                  |
+| 6007      | 40750      | California State University, Chico                                            |
+| 6037      | 40751      | California State University, Dominguez Hills                                  |
+| 6001      | 40752      | California State University, East Bay                                         |
+| 6059      | 40753      | California State University, Fullerton                                        |
+| 6037      | 40754      | California State University, Long Beach                                       |
+| 6037      | 40755      | California State University, Los Angeles                                      |
+| 6053      | 40756      | California State University, Monterey Bay                                     |
+| 6037      | 40757      | California State University, Northridge                                       |
+| 6067      | 40758      | California State University, Sacramento                                       |
+| 6071      | 40759      | California State University, San Bernardino                                   |
+| 6073      | 40760      | California State University, San Marcos                                       |
+| 6099      | 40761      | California State University, Stanislaus                                       |
+| 6059      | 40762      | Chapman University                                                            |
+| 6037      | 40763      | Claremont McKenna College                                                     |
+| 6059      | 40764      | Concordia University Irvine                                                   |
+| 6059      | 40765      | Cypress College                                                               |
+| 6041      | 40766      | Dominican University of California                                            |
+| 6037      | 40767      | El Camino Community College                                                   |
+| 6063      | 40768      | Feather River College                                                         |
+| 6085      | 40769      | Foothill College                                                              |
+| 6019      | 40770      | Fresno Pacific University                                                     |
+| 6019      | 40771      | Fresno State University                                                       |
+| 6037      | 40772      | Harvey Mudd College                                                           |
+| 6001      | 40773      | Holy Names University                                                         |
+| 6023      | 40774      | Humboldt State University                                                     |
+| 6037      | 40775      | Los Angeles Community College District                                        |
+| 6037      | 40776      | Loyola Marymount University                                                   |
+| 6081      | 40777      | Menlo College                                                                 |
+| 6001      | 40778      | Mills College                                                                 |
+| 6073      | 40779      | MiraCosta College                                                             |
+| 6099      | 40780      | Modesto Junior College                                                        |
+| 6053      | 40781      | Naval Postgraduate School                                                     |
+| 6081      | 40782      | Notre Dame de Namur University                                                |
+| 6037      | 40783      | Occidental College                                                            |
+| 6037      | 40784      | Pepperdine University                                                         |
+| 6037      | 40785      | Pitzer College                                                                |
+| 6073      | 40786      | Point Loma Nazarene University                                                |
+| 6037      | 40787      | Pomona College                                                                |
+| 6037      | 40788      | Rio Hondo College                                                             |
+| 6013      | 40789      | Saint Mary's College of California                                            |
+| 6073      | 40790      | San Diego City College                                                        |
+| 6073      | 40791      | San Diego Mesa College                                                        |
+| 6073      | 40792      | San Diego Miramar College                                                     |
+| 6073      | 40793      | San Diego State University System                                             |
+| 6075      | 40794      | San Francisco State University                                                |
+| 6085      | 40795      | San Jose State University                                                     |
+| 6059      | 40796      | Santa Ana College                                                             |
+| 6085      | 40797      | Santa Clara University                                                        |
+| 6037      | 40798      | Santa Monica College                                                          |
+| 6059      | 40799      | Santiago Canyon College                                                       |
+| 6037      | 40800      | Scripps College                                                               |
+| 6089      | 40801      | Shasta College                                                                |
+| 6081      | 40802      | Skyline College                                                               |
+| 6095      | 40803      | Solano Community College                                                      |
+| 6097      | 40804      | Sonoma State University                                                       |
+| 6073      | 40805      | Southwestern College                                                          |
+| 6085      | 40806      | Stanford University                                                           |
+| 6077      | 40807      | Teachers College of San Joaquin                                               |
+| 6001      | 40808      | University of California, Berkeley                                            |
+| 6113      | 40809      | University of California, Davis                                               |
+| 6075      | 40810      | University of California, Hastings College of Law                             |
+| 6059      | 40811      | University of California, Irvine                                              |
+| 6037      | 40812      | University of California, Los Angeles                                         |
+| 6047      | 40813      | University of California, Merced                                              |
+| 6065      | 40814      | University of California, Riverside                                           |
+| 6073      | 40815      | University of California, San Diego                                           |
+| 6075      | 40816      | University of California, San Francisco                                       |
+| 6083      | 40817      | University of California, Santa Barbara                                       |
+| 6087      | 40818      | University of California, Santa Cruz                                          |
+| 6037      | 40819      | University of La Verne                                                        |
+| 6071      | 40820      | University of Redlands                                                        |
+| 6073      | 40821      | University of San Diego                                                       |
+| 6075      | 40822      | University of San Francisco                                                   |
+| 6037      | 40823      | University of Southern California                                             |
+| 6077      | 40824      | University of the Pacific                                                     |
+| 6083      | 40825      | Westmont College                                                              |
+| 6037      | 40826      | Whittier College                                                              |
+| 8003      | 40827      | Adams State University                                                        |
+| 8005      | 40828      | Arapahoe Community College                                                    |
+| 8059      | 40829      | Colorado Christian University                                                 |
+| 8041      | 40830      | Colorado College                                                              |
+| 8077      | 40831      | Colorado Mesa University                                                      |
+| 8045      | 40832      | Colorado Mountain College Glenwood Springs                                    |
+| 8059      | 40833      | Colorado School of Mines                                                      |
+| 8069      | 40834      | Colorado State University                                                     |
+| 8101      | 40835      | Colorado State University-Pueblo                                              |
+| 8005      | 40836      | Community College of Aurora                                                   |
+| 8031      | 40837      | Community College of Denver                                                   |
+| 8067      | 40838      | Fort Lewis College                                                            |
+| 8001      | 40839      | Front Range Community College                                                 |
+| 8031      | 40840      | Johnson & Wales University-Denver                                             |
+| 8099      | 40841      | Lamar Community College                                                       |
+| 8031      | 40842      | Metropolitan State University of Denver                                       |
+| 8087      | 40843      | Morgan Community College                                                      |
+| 8075      | 40844      | Northeastern Junior College                                                   |
+| 8089      | 40845      | Otero Junior College                                                          |
+| 8041      | 40846      | Pikes Peak Community College                                                  |
+| 8101      | 40847      | Pueblo Community College                                                      |
+| 8059      | 40848      | Red Rocks Community College                                                   |
+| 8031      | 40849      | Regis University                                                              |
+| 8071      | 40850      | Trinidad State Junior College                                                 |
+| 8041      | 40851      | United States Air Force Academy                                               |
+| 8013      | 40852      | University of Colorado Boulder                                                |
+| 8041      | 40853      | University of Colorado Colorado Springs                                       |
+| 8001      | 40854      | University of Colorado Denver and Anschutz Medical Campus                     |
+| 8031      | 40855      | University of Denver                                                          |
+| 8123      | 40856      | University of Northern Colorado                                               |
+| 8051      | 40857      | Western Colorado University                                                   |
+| 9009      | 40858      | Albertus Magnus College                                                       |
+| 9003      | 40859      | Central Connecticut State University                                          |
+| 9011      | 40860      | Connecticut College                                                           |
+| 9015      | 40861      | Eastern Connecticut State University                                          |
+| 9001      | 40862      | Fairfield University                                                          |
+| 9011      | 40863      | Mitchell College                                                              |
+| 9009      | 40864      | Post University                                                               |
+| 9009      | 40865      | Quinnipiac University                                                         |
+| 9001      | 40866      | Sacred Heart University                                                       |
+| 9009      | 40867      | Southern Connecticut State University                                         |
+| 9003      | 40868      | Trinity College                                                               |
+| 9003      | 40869      | Tunxis Community College                                                      |
+| 9011      | 40870      | United States Coast Guard Academy                                             |
+| 9001      | 40871      | University of Bridgeport                                                      |
+| 9013      | 40872      | University of Connecticut                                                     |
+| 9003      | 40873      | University of Hartford                                                        |
+| 9009      | 40874      | University of New Haven                                                       |
+| 9003      | 40875      | University of Saint Joseph                                                    |
+| 9007      | 40876      | Wesleyan University                                                           |
+| 9001      | 40877      | Western Connecticut State University                                          |
+| 9009      | 40878      | Yale University                                                               |
+| 10001     | 40879      | Delaware State University                                                     |
+| 10001     | 40880      | Delaware Technical Community College Dover                                    |
+| 10005     | 40881      | Delaware Technical Community College Georgetown                               |
+| 10003     | 40882      | Delaware Technical Community College Stanton                                  |
+| 10003     | 40883      | Goldey-Beacom College                                                         |
+| 10003     | 40884      | University of Delaware                                                        |
+| 10001     | 40885      | Wesley College                                                                |
+| 10003     | 40886      | Wilmington University                                                         |
+| 12095     | 40887      | AdventHealth University                                                       |
+| 12103     | 40888      | American Institute of Beauty                                                  |
+| 12011     | 40889      | Atlantic Technical College                                                    |
+| 12086     | 40890      | Atlantis University                                                           |
+| 12021     | 40891      | Ave Maria University                                                          |
+| 12011     | 40892      | Aveda Institute-South Florida                                                 |
+| 12073     | 40893      | Aveda Institute-Tallahassee                                                   |
+| 12117     | 40894      | Aviation Institute of Maintenance-Orlando                                     |
+| 12086     | 40895      | Barry University                                                              |
+| 12101     | 40896      | Bene's Career Academy                                                         |
+| 12127     | 40897      | Bethune-Cookman University                                                    |
+| 12123     | 40898      | Big Bend Technical College                                                    |
+| 12011     | 40899      | Broward College                                                               |
+| 12015     | 40900      | Charlotte Technical College                                                   |
+| 12063     | 40901      | Chipola College                                                               |
+| 12001     | 40902      | City College at Gainesville                                                   |
+| 12083     | 40903      | College of Central Florida                                                    |
+| 12011     | 40904      | Concorde Career Institute-Miramar                                             |
+| 12095     | 40905      | Cortiva Institute-Maitland                                                    |
+| 12127     | 40906      | Daytona State College                                                         |
+| 12009     | 40907      | Eastern Florida State College                                                 |
+| 12103     | 40908      | Eckerd College                                                                |
+| 12031     | 40909      | Edward Waters College                                                         |
+| 12127     | 40910      | Embry-Riddle Aeronautical University at Daytona Beach                         |
+| 12057     | 40911      | Erwin Technical College                                                       |
+| 12099     | 40912      | Everglades University                                                         |
+| 12109     | 40913      | First Coast Technical College                                                 |
+| 12109     | 40914      | Flagler College                                                               |
+| 12035     | 40915      | Flagler Technical College                                                     |
+| 12073     | 40916      | Florida A&M University                                                        |
+| 12099     | 40917      | Florida Atlantic University                                                   |
+| 12057     | 40918      | Florida Career College at Tampa                                               |
+| 12057     | 40919      | Florida College                                                               |
+| 12023     | 40920      | Florida Gateway College                                                       |
+| 12071     | 40921      | Florida Gulf Coast University                                                 |
+| 12095     | 40922      | Florida Institute of Recording Sound and Technology                           |
+| 12009     | 40923      | Florida Institute of Technology                                               |
+| 12086     | 40924      | Florida International University                                              |
+| 12086     | 40925      | Florida Memorial University                                                   |
+| 12086     | 40926      | Florida National University                                                   |
+| 12105     | 40927      | Florida Polytechnic University                                                |
+| 12071     | 40928      | Florida SouthWestern State College                                            |
+| 12105     | 40929      | Florida Southern College                                                      |
+| 12031     | 40930      | Florida State College at Jacksonville                                         |
+| 12073     | 40931      | Florida State University                                                      |
+| 12095     | 40932      | Florida Technical College                                                     |
+| 12071     | 40933      | Fort Myers Technical College                                                  |
+| 12111     | 40934      | Fortis Institute at Port Saint Lucie                                          |
+| 12101     | 40935      | Fred K. Marchman Technical College                                            |
+| 12095     | 40936      | Full Sail University                                                          |
+| 12039     | 40937      | Gadsden Technical Institute                                                   |
+| 12033     | 40938      | George Stone Technical College                                                |
+| 12005     | 40939      | Gulf Coast State College                                                      |
+| 12095     | 40940      | Gwinnett Institute                                                            |
+| 12099     | 40941      | HCI College                                                                   |
+| 12011     | 40942      | HCI College at Fort Lauderdale                                                |
+| 12057     | 40943      | Hillsborough Community College                                                |
+| 12021     | 40944      | Immokalee Technical College                                                   |
+| 12111     | 40945      | Indian River State College                                                    |
+| 12031     | 40946      | Jacksonville University                                                       |
+| 12086     | 40947      | Johnson & Wales University-North Miami                                        |
+| 12099     | 40948      | Keiser University Flagship                                                    |
+| 12071     | 40949      | Keiser University at Fort Myers                                               |
+| 12031     | 40950      | Keiser University at Jacksonville                                             |
+| 12105     | 40951      | Keiser University at Lakeland                                                 |
+| 12009     | 40952      | Keiser University at Melbourne                                                |
+| 12031     | 40953      | Keiser University at Sarasota                                                 |
+| 12073     | 40954      | Keiser University at Tallahassee                                              |
+| 12099     | 40955      | Keiser University at West Palm Beach                                          |
+| 12127     | 40956      | Keiser University-Daytona                                                     |
+| 12111     | 40957      | Keiser University-Port St Lucie                                               |
+| 12069     | 40958      | Lake Technical College                                                        |
+| 12069     | 40959      | Lake-Sumter State College                                                     |
+| 12086     | 40960      | Lindsey Hopkins Technical College                                             |
+| 12073     | 40961      | Lively Technical College                                                      |
+| 12103     | 40962      | Loraines Academy & Spa                                                        |
+| 12021     | 40963      | Lorenzo Walker Technical College                                              |
+| 12099     | 40964      | Lynn University                                                               |
+| 12083     | 40965      | Marion Technical College                                                      |
+| 12115     | 40966      | Meridian College                                                              |
+| 12086     | 40967      | Miami Dade College                                                            |
+| 12086     | 40968      | Miami International University of Art and Design                              |
+| 12115     | 40969      | New College of Florida                                                        |
+| 12079     | 40970      | North Florida College                                                         |
+| 12091     | 40971      | Northwest Florida State College                                               |
+| 12086     | 40972      | Nouvelle Institute                                                            |
+| 12011     | 40973      | Nova Southeastern University                                                  |
+| 12091     | 40974      | Okaloosa Technical College                                                    |
+| 12095     | 40975      | Orange Technical College Mid Florida Campus                                   |
+| 12095     | 40976      | Orange Technical College Orlando Campus                                       |
+| 12095     | 40977      | Orange Technical College Westside Campus                                      |
+| 12095     | 40978      | Orange Technical College Winter Park Campus                                   |
+| 12099     | 40979      | Palm Beach Atlantic University                                                |
+| 12099     | 40980      | Palm Beach State College                                                      |
+| 12101     | 40981      | Pasco-Hernando State College                                                  |
+| 12031     | 40982      | Paul Mitchell the School-Jacksonville                                         |
+| 12033     | 40983      | Pensacola State College                                                       |
+| 12103     | 40984      | Pinellas Technical College-St. Petersburg                                     |
+| 12105     | 40985      | Polk State College                                                            |
+| 12086     | 40986      | Praxis Institute                                                              |
+| 12113     | 40987      | Radford M Locklin Technical College                                           |
+| 12071     | 40988      | Rasmussen College at Fort Myers                                               |
+| 12105     | 40989      | Ridge Technical College                                                       |
+| 12121     | 40990      | Riveroak Technical College                                                    |
+| 12095     | 40991      | Rollins College                                                               |
+| 12101     | 40992      | Saint Leo University                                                          |
+| 12001     | 40993      | Santa Fe College                                                              |
+| 12117     | 40994      | Seminole State College of Florida                                             |
+| 12011     | 40995      | Sheridan Technical College                                                    |
+| 12011     | 40996      | South Florida Bible College and Theological Seminary                          |
+| 12055     | 40997      | South Florida State College                                                   |
+| 12099     | 40998      | Southeastern College at West Palm Beach                                       |
+| 12105     | 40999      | Southeastern University                                                       |
+| 12107     | 41000      | St. Johns River State College                                                 |
+| 12103     | 41001      | St. Petersburg College                                                        |
+| 12086     | 41002      | St. Thomas University                                                         |
+| 12081     | 41003      | State College of Florida, Manatee-Sarasota                                    |
+| 12127     | 41004      | Stetson University                                                            |
+| 12011     | 41005      | Strayer University at Fort Lauderdale                                         |
+| 12115     | 41006      | Suncoast Technical College                                                    |
+| 12031     | 41007      | Sunstate Academy-Jones Technical Institute                                    |
+| 12073     | 41008      | Tallahassee Community College                                                 |
+| 12087     | 41009      | The College of the Florida Keys                                               |
+| 12105     | 41010      | Traviss Technical College                                                     |
+| 12101     | 41011      | Trinity College of Florida                                                    |
+| 12095     | 41012      | Universal Technical Institute Orlando                                         |
+| 12095     | 41013      | University of Central Florida                                                 |
+| 12001     | 41014      | University of Florida                                                         |
+| 12011     | 41015      | University of Fort Lauderdale                                                 |
+| 12086     | 41016      | University of Miami                                                           |
+| 12031     | 41017      | University of North Florida                                                   |
+| 12057     | 41018      | University of South Florida                                                   |
+| 12115     | 41019      | University of South Florida Sarasota-Manatee                                  |
+| 12103     | 41020      | University of South Florida St. Petersburg                                    |
+| 12057     | 41021      | University of Tampa                                                           |
+| 12033     | 41022      | University of West Florida                                                    |
+| 12095     | 41023      | Valencia College                                                              |
+| 12105     | 41024      | Warner University                                                             |
+| 12105     | 41025      | Webber International University                                               |
+| 12011     | 41026      | William T. McFatter Technical College                                         |
+| 12017     | 41027      | Withlacoochee Technical College                                               |
+| 13277     | 41028      | Abraham Baldwin Agricultural College                                          |
+| 13089     | 41029      | Agnes Scott College                                                           |
+| 13095     | 41030      | Albany State University                                                       |
+| 13121     | 41031      | Atlanta Metropolitan State College                                            |
+| 13245     | 41032      | Augusta University                                                            |
+| 13115     | 41033      | Berry College                                                                 |
+| 13139     | 41034      | Brenau University                                                             |
+| 13089     | 41035      | Clark Atlanta University                                                      |
+| 13063     | 41036      | Clayton State University                                                      |
+| 13127     | 41037      | College of Coastal Georgia                                                    |
+| 13215     | 41038      | Columbus State University                                                     |
+| 13295     | 41039      | Covenant College                                                              |
+| 13313     | 41040      | Dalton State College                                                          |
+| 13107     | 41041      | East Georgia State College                                                    |
+| 13119     | 41042      | Emmanuel College                                                              |
+| 13089     | 41043      | Emory University                                                              |
+| 13225     | 41044      | Fort Valley State University                                                  |
+| 13009     | 41045      | Georgia College & State University                                            |
+| 13135     | 41046      | Georgia Gwinnett College                                                      |
+| 13115     | 41047      | Georgia Highlands College                                                     |
+| 13121     | 41048      | Georgia Institute of Technology                                               |
+| 13009     | 41049      | Georgia Military College                                                      |
+| 13031     | 41050      | Georgia Southern University                                                   |
+| 13261     | 41051      | Georgia Southwestern State University                                         |
+| 13121     | 41052      | Georgia State University                                                      |
+| 13171     | 41053      | Gordon State College                                                          |
+| 13067     | 41054      | Kennesaw State University                                                     |
+| 13285     | 41055      | LaGrange College                                                              |
+| 13021     | 41056      | Mercer University                                                             |
+| 13021     | 41057      | Middle Georgia State University                                               |
+| 13089     | 41058      | Morehouse College                                                             |
+| 13089     | 41059      | Oglethorpe University                                                         |
+| 13137     | 41060      | Piedmont College                                                              |
+| 13051     | 41061      | Savannah State University                                                     |
+| 13115     | 41062      | Shorter University                                                            |
+| 13069     | 41063      | South Georgia State College                                                   |
+| 13059     | 41064      | University of Georgia                                                         |
+| 13187     | 41065      | University of North Georgia                                                   |
+| 13045     | 41066      | University of West Georgia                                                    |
+| 13185     | 41067      | Valdosta State University                                                     |
+| 13021     | 41068      | Wesleyan College                                                              |
+| 13281     | 41069      | Young Harris College                                                          |
+| 15003     | 41070      | Brigham Young University-Hawaii                                               |
+| 15003     | 41071      | Chaminade University of Honolulu                                              |
+| 15003     | 41072      | Hawaii Pacific University                                                     |
+| 15003     | 41073      | Kapiolani Community College                                                   |
+| 15003     | 41074      | Leeward Community College                                                     |
+| 15009     | 41075      | University of Hawaii Maui College                                             |
+| 15001     | 41076      | University of Hawaii at Hilo                                                  |
+| 15003     | 41077      | University of Hawaii at Manoa                                                 |
+| 15003     | 41078      | University of Hawaii-West Oahu                                                |
+| 16001     | 41079      | Boise State University                                                        |
+| 16065     | 41080      | Brigham Young University-Idaho                                                |
+| 16027     | 41081      | College of Idaho                                                              |
+| 16083     | 41082      | College of Southern Idaho                                                     |
+| 16005     | 41083      | Idaho State University                                                        |
+| 16069     | 41084      | Lewis-Clark State College                                                     |
+| 16055     | 41085      | North Idaho College                                                           |
+| 16027     | 41086      | Northwest Nazarene University                                                 |
+| 16057     | 41087      | University of Idaho                                                           |
+| 17161     | 41088      | Augustana College                                                             |
+| 17089     | 41089      | Aurora University                                                             |
+| 17043     | 41090      | Benedictine University                                                        |
+| 17117     | 41091      | Blackburn College                                                             |
+| 17143     | 41092      | Bradley University                                                            |
+| 17031     | 41093      | Chicago State University                                                      |
+| 17031     | 41094      | Columbia College Chicago                                                      |
+| 17031     | 41095      | Concordia University Chicago                                                  |
+| 17031     | 41096      | DePaul University                                                             |
+| 17031     | 41097      | Dominican University                                                          |
+| 17029     | 41098      | Eastern Illinois University                                                   |
+| 17043     | 41099      | Elmhurst University                                                           |
+| 17203     | 41100      | Eureka College                                                                |
+| 17031     | 41101      | Governors State University                                                    |
+| 17005     | 41102      | Greenville University                                                         |
+| 17137     | 41103      | Illinois College                                                              |
+| 17031     | 41104      | Illinois Institute of Technology                                              |
+| 17113     | 41105      | Illinois State University                                                     |
+| 17113     | 41106      | Illinois Wesleyan University                                                  |
+| 17027     | 41107      | Kaskaskia College                                                             |
+| 17095     | 41108      | Knox College                                                                  |
+| 17097     | 41109      | Lake Forest College                                                           |
+| 17029     | 41110      | Lake Land College                                                             |
+| 17197     | 41111      | Lewis University                                                              |
+| 17031     | 41112      | Loyola University Chicago                                                     |
+| 17163     | 41113      | McKendree University                                                          |
+| 17043     | 41114      | Midwestern University at Downers Grove                                        |
+| 17115     | 41115      | Millikin University                                                           |
+| 17187     | 41116      | Monmouth College                                                              |
+| 17031     | 41117      | Moody Bible Institute                                                         |
+| 17043     | 41118      | North Central College                                                         |
+| 17031     | 41119      | North Park University                                                         |
+| 17031     | 41120      | Northeastern Illinois University                                              |
+| 17037     | 41121      | Northern Illinois University                                                  |
+| 17031     | 41122      | Northwestern University                                                       |
+| 17091     | 41123      | Olivet Nazarene University                                                    |
+| 17019     | 41124      | Parkland College                                                              |
+| 17083     | 41125      | Principia College                                                             |
+| 17001     | 41126      | Quincy University                                                             |
+| 17201     | 41127      | Rockford University                                                           |
+| 17031     | 41128      | Saint Xavier University                                                       |
+| 17031     | 41129      | School of the Art Institute of Chicago                                        |
+| 17165     | 41130      | Southeastern Illinois College                                                 |
+| 17077     | 41131      | Southern Illinois University Carbondale                                       |
+| 17119     | 41132      | Southern Illinois University Edwardsville                                     |
+| 17163     | 41133      | Southwestern Illinois College                                                 |
+| 17031     | 41134      | University of Chicago                                                         |
+| 17167     | 41135      | University of Illinois Springfield                                            |
+| 17019     | 41136      | University of Illinois Urbana-Champaign                                       |
+| 17031     | 41137      | University of Illinois at Chicago                                             |
+| 17109     | 41138      | Western Illinois University                                                   |
+| 17043     | 41139      | Wheaton College                                                               |
+| 18095     | 41140      | Anderson University                                                           |
+| 18035     | 41141      | Ball State University                                                         |
+| 18097     | 41142      | Butler University                                                             |
+| 18133     | 41143      | DePauw University                                                             |
+| 18177     | 41144      | Earlham College                                                               |
+| 18081     | 41145      | Franklin College                                                              |
+| 18039     | 41146      | Goshen College                                                                |
+| 18085     | 41147      | Grace College and Theological Seminary                                        |
+| 18077     | 41148      | Hanover College                                                               |
+| 18167     | 41149      | Indiana State University                                                      |
+| 18105     | 41150      | Indiana University Bloomington                                                |
+| 18177     | 41151      | Indiana University East                                                       |
+| 18067     | 41152      | Indiana University Kokomo                                                     |
+| 18089     | 41153      | Indiana University Northwest                                                  |
+| 18141     | 41154      | Indiana University South Bend                                                 |
+| 18043     | 41155      | Indiana University Southeast                                                  |
+| 18097     | 41156      | Indiana University-Purdue University Indianapolis                             |
+| 18097     | 41157      | Ivy Tech Community College System                                             |
+| 18169     | 41158      | Manchester University                                                         |
+| 18097     | 41159      | Marian University                                                             |
+| 18051     | 41160      | Oakland City University                                                       |
+| 18157     | 41161      | Purdue University                                                             |
+| 18095     | 41162      | Purdue University - Purdue Polytechnic Anderson                               |
+| 18005     | 41163      | Purdue University - Purdue Polytechnic Columbus                               |
+| 18097     | 41164      | Purdue University - Purdue Polytechnic Indianapolis                           |
+| 18067     | 41165      | Purdue University - Purdue Polytechnic Kokomo                                 |
+| 18157     | 41166      | Purdue University - Purdue Polytechnic Lafayette                              |
+| 18043     | 41167      | Purdue University - Purdue Polytechnic New Albany                             |
+| 18177     | 41168      | Purdue University - Purdue Polytechnic Richmond                               |
+| 18141     | 41169      | Purdue University - Purdue Polytechnic South Bend                             |
+| 18083     | 41170      | Purdue University - Purdue Polytechnic Vincennes                              |
+| 18003     | 41171      | Purdue University Fort Wayne                                                  |
+| 18089     | 41172      | Purdue University Northwest                                                   |
+| 18167     | 41173      | Rose-Hulman Institute of Technology                                           |
+| 18141     | 41174      | Saint Mary's College                                                          |
+| 18053     | 41175      | Taylor University                                                             |
+| 18151     | 41176      | Trine University                                                              |
+| 18163     | 41177      | University of Evansville                                                      |
+| 18097     | 41178      | University of Indianapolis                                                    |
+| 18141     | 41179      | University of Notre Dame                                                      |
+| 18163     | 41180      | University of Southern Indiana                                                |
+| 18127     | 41181      | Valparaiso University                                                         |
+| 18083     | 41182      | Vincennes University                                                          |
+| 18107     | 41183      | Wabash College                                                                |
+| 19021     | 41184      | Buena Vista University                                                        |
+| 19125     | 41185      | Central College                                                               |
+| 19061     | 41186      | Clarke University                                                             |
+| 19113     | 41187      | Coe College                                                                   |
+| 19113     | 41188      | Cornell College                                                               |
+| 19167     | 41189      | Dordt University                                                              |
+| 19153     | 41190      | Drake University                                                              |
+| 19163     | 41191      | Eastern Iowa Community College District                                       |
+| 19083     | 41192      | Ellsworth Community College                                                   |
+| 19053     | 41193      | Graceland University                                                          |
+| 19153     | 41194      | Grand View University                                                         |
+| 19157     | 41195      | Grinnell College                                                              |
+| 19013     | 41196      | Hawkeye Community College                                                     |
+| 19169     | 41197      | Iowa State University                                                         |
+| 19087     | 41198      | Iowa Wesleyan University                                                      |
+| 19061     | 41199      | Loras College                                                                 |
+| 19191     | 41200      | Luther College                                                                |
+| 19127     | 41201      | Marshalltown Community College                                                |
+| 19193     | 41202      | Morningside College                                                           |
+| 19167     | 41203      | Northwestern College                                                          |
+| 19163     | 41204      | Saint Ambrose University                                                      |
+| 19181     | 41205      | Simpson College                                                               |
+| 19061     | 41206      | University of Dubuque                                                         |
+| 19103     | 41207      | University of Iowa                                                            |
+| 19013     | 41208      | University of Northern Iowa                                                   |
+| 19065     | 41209      | Upper Iowa University                                                         |
+| 19017     | 41210      | Wartburg College                                                              |
+| 19123     | 41211      | William Penn University                                                       |
+| 20001     | 41212      | Allen County Community College                                                |
+| 20045     | 41213      | Baker University                                                              |
+| 20005     | 41214      | Benedictine College                                                           |
+| 20113     | 41215      | Bethany College (Kan.)                                                        |
+| 20079     | 41216      | Bethel College                                                                |
+| 20015     | 41217      | Butler Community College                                                      |
+| 20113     | 41218      | Central Christian College                                                     |
+| 20057     | 41219      | Dodge City Community College                                                  |
+| 20111     | 41220      | Emporia State University                                                      |
+| 20111     | 41221      | Flint Hills Technical College                                                 |
+| 20051     | 41222      | Fort Hays State University                                                    |
+| 20045     | 41223      | Haskell Indian Nations University                                             |
+| 20079     | 41224      | Hesston College                                                               |
+| 20155     | 41225      | Hutchinson Community College                                                  |
+| 20091     | 41226      | Johnson County Community College                                              |
+| 20161     | 41227      | Kansas State University                                                       |
+| 20169     | 41228      | Kansas Wesleyan University                                                    |
+| 20099     | 41229      | Labette Community College                                                     |
+| 20173     | 41230      | Newman University                                                             |
+| 20037     | 41231      | Pittsburg State University                                                    |
+| 20035     | 41232      | Southwestern College                                                          |
+| 20159     | 41233      | Sterling College                                                              |
+| 20045     | 41234      | University of Kansas                                                          |
+| 20103     | 41235      | University of Saint Mary                                                      |
+| 20177     | 41236      | Washburn University                                                           |
+| 20173     | 41237      | Wichita State University                                                      |
+| 21119     | 41238      | Alice Lloyd College                                                           |
+| 21113     | 41239      | Asbury Theological Seminary                                                   |
+| 21113     | 41240      | Asbury University                                                             |
+| 21019     | 41241      | Ashland Community and Technical College                                       |
+| 21015     | 41242      | Beckfield College                                                             |
+| 21111     | 41243      | Bellarmine University                                                         |
+| 21151     | 41244      | Berea College                                                                 |
+| 21071     | 41245      | Big Sandy Community and Technical College                                     |
+| 21067     | 41246      | Bluegrass Community and Technical College                                     |
+| 21059     | 41247      | Brescia University                                                            |
+| 21217     | 41248      | Campbellsville University                                                     |
+| 21021     | 41249      | Centre College                                                                |
+| 21013     | 41250      | Clear Creek Baptist Bible College                                             |
+| 21151     | 41251      | Eastern Kentucky University                                                   |
+| 21093     | 41252      | Elizabethtown Community and Technical College                                 |
+| 21131     | 41253      | Frontier Nursing University                                                   |
+| 21193     | 41254      | Galen College of Nursing-ARH                                                  |
+| 21111     | 41255      | Galen College of Nursing-Louisville                                           |
+| 21015     | 41256      | Gateway Community and Technical College                                       |
+| 21209     | 41257      | Georgetown College                                                            |
+| 21193     | 41258      | Hazard Community and Technical College                                        |
+| 21101     | 41259      | Henderson Community College                                                   |
+| 21047     | 41260      | Hopkinsville Community College                                                |
+| 21111     | 41261      | Jefferson Community and Technical College                                     |
+| 21043     | 41262      | Kentucky Christian University                                                 |
+| 21073     | 41263      | Kentucky State University                                                     |
+| 21059     | 41264      | Kentucky Wesleyan College                                                     |
+| 21067     | 41265      | Lexington Healing Arts Academy                                                |
+| 21067     | 41266      | Lexington Theological Seminary                                                |
+| 21001     | 41267      | Lindsey Wilson College                                                        |
+| 21107     | 41268      | Madisonville Community College                                                |
+| 21161     | 41269      | Maysville Community and Technical College                                     |
+| 21111     | 41270      | MedQuest College                                                              |
+| 21239     | 41271      | Midway University                                                             |
+| 21205     | 41272      | Morehead State University                                                     |
+| 21035     | 41273      | Murray State University                                                       |
+| 21037     | 41274      | Northern Kentucky University                                                  |
+| 21059     | 41275      | Owensboro Community and Technical College                                     |
+| 21067     | 41276      | Paul Mitchell the School-Lexington                                            |
+| 21111     | 41277      | Simmons College of Kentucky                                                   |
+| 21199     | 41278      | Somerset Community College                                                    |
+| 21227     | 41279      | Southcentral Kentucky Community and Technical College                         |
+| 21095     | 41280      | Southeast Kentucky Community and Technical College                            |
+| 21111     | 41281      | Spalding University                                                           |
+| 21111     | 41282      | Sullivan University                                                           |
+| 21111     | 41283      | The Southern Baptist Theological Seminary                                     |
+| 21117     | 41284      | Thomas More University                                                        |
+| 21067     | 41285      | Transylvania University                                                       |
+| 21121     | 41286      | Union College                                                                 |
+| 21067     | 41287      | University of Kentucky                                                        |
+| 21111     | 41288      | University of Louisville                                                      |
+| 21195     | 41289      | University of Pikeville                                                       |
+| 21235     | 41290      | University of the Cumberlands                                                 |
+| 21145     | 41291      | West Kentucky Community and Technical College                                 |
+| 21227     | 41292      | Western Kentucky University                                                   |
+| 22033     | 41293      | Baton Rouge Community College                                                 |
+| 22015     | 41294      | Bossier Parish Community College                                              |
+| 22017     | 41295      | Centenary College of Louisiana                                                |
+| 22079     | 41296      | Central Louisiana Technical Community College                                 |
+| 22071     | 41297      | Delgado Community College                                                     |
+| 22071     | 41298      | Dillard University                                                            |
+| 22109     | 41299      | Fletcher Technical Community College                                          |
+| 22033     | 41300      | Franciscan Missionaries of Our Lady University                                |
+| 22061     | 41301      | Grambling State University                                                    |
+| 22079     | 41302      | Louisiana College                                                             |
+| 22073     | 41303      | Louisiana Delta Community College                                             |
+| 22033     | 41304      | Louisiana State University                                                    |
+| 22079     | 41305      | Louisiana State University Alexandria                                         |
+| 22001     | 41306      | Louisiana State University Eunice                                             |
+| 22071     | 41307      | Louisiana State University Health Sciences Center, New Orleans                |
+| 22017     | 41308      | Louisiana State University Health Sciences Center, Shreveport                 |
+| 22017     | 41309      | Louisiana State University Shreveport                                         |
+| 22061     | 41310      | Louisiana Tech University                                                     |
+| 22071     | 41311      | Loyola University New Orleans                                                 |
+| 22019     | 41312      | McNeese State University                                                      |
+| 22071     | 41313      | New Orleans Baptist Theological Seminary                                      |
+| 22057     | 41314      | Nicholls State University                                                     |
+| 22103     | 41315      | Northshore Technical Community College                                        |
+| 22119     | 41316      | Northwest Louisiana Technical College                                         |
+| 22069     | 41317      | Northwestern State University of Louisiana                                    |
+| 22087     | 41318      | Nunez Community College                                                       |
+| 22005     | 41319      | River Parishes Community College                                              |
+| 22019     | 41320      | SOWELA Technical Community College                                            |
+| 22103     | 41321      | Saint Joseph Seminary College                                                 |
+| 22055     | 41322      | South Louisiana Community College                                             |
+| 22105     | 41323      | Southeastern Louisiana University                                             |
+| 22033     | 41324      | Southern University Law Center                                                |
+| 22033     | 41325      | Southern University and A&M College                                           |
+| 22071     | 41326      | Southern University at New Orleans                                            |
+| 22017     | 41327      | Southern University at Shreveport                                             |
+| 22071     | 41328      | Tulane University of Louisiana                                                |
+| 22071     | 41329      | University of Holy Cross                                                      |
+| 22073     | 41330      | University of Louisiana Monroe                                                |
+| 22055     | 41331      | University of Louisiana at Lafayette                                          |
+| 22071     | 41332      | University of New Orleans                                                     |
+| 22071     | 41333      | Xavier University of Louisiana                                                |
+| 23001     | 41334      | Bates College                                                                 |
+| 23005     | 41335      | Bowdoin College                                                               |
+| 23011     | 41336      | Colby College                                                                 |
+| 23019     | 41337      | Husson University                                                             |
+| 23009     | 41338      | Maine Maritime Academy                                                        |
+| 23005     | 41339      | Saint Joseph's College of Maine                                               |
+| 23011     | 41340      | Thomas College                                                                |
+| 23019     | 41341      | University of Maine                                                           |
+| 23007     | 41342      | University of Maine Farmington                                                |
+| 23011     | 41343      | University of Maine at Augusta                                                |
+| 23003     | 41344      | University of Maine at Fort Kent                                              |
+| 23029     | 41345      | University of Maine at Machias                                                |
+| 23003     | 41346      | University of Maine at Presque Isle                                           |
+| 23031     | 41347      | University of New England                                                     |
+| 23005     | 41348      | University of Southern Maine                                                  |
+| 24033     | 41349      | Bowie State University                                                        |
+| 24510     | 41350      | Coppin State University                                                       |
+| 24001     | 41351      | Frostburg State University                                                    |
+| 24510     | 41352      | Goucher College                                                               |
+| 24021     | 41353      | Hood College                                                                  |
+| 24510     | 41354      | Johns Hopkins University                                                      |
+| 24005     | 41355      | Loyola University Maryland                                                    |
+| 24013     | 41356      | McDaniel College                                                              |
+| 24510     | 41357      | Morgan State University                                                       |
+| 24021     | 41358      | Mount St. Mary's University                                                   |
+| 24510     | 41359      | Notre Dame of Maryland University                                             |
+| 24045     | 41360      | Salisbury University                                                          |
+| 24037     | 41361      | St. Mary's College of Maryland                                                |
+| 24005     | 41362      | Stevenson University                                                          |
+| 24005     | 41363      | Towson University                                                             |
+| 24003     | 41364      | United States Naval Academy                                                   |
+| 24005     | 41365      | University of Baltimore                                                       |
+| 24039     | 41366      | University of Maryland Eastern Shore                                          |
+| 24005     | 41367      | University of Maryland, Baltimore                                             |
+| 24005     | 41368      | University of Maryland, Baltimore County                                      |
+| 24033     | 41369      | University of Maryland, College Park                                          |
+| 24029     | 41370      | Washington College                                                            |
+| 25013     | 41371      | American International College                                                |
+| 25015     | 41372      | Amherst College                                                               |
+| 25027     | 41373      | Anna Maria College                                                            |
+| 25027     | 41374      | Assumption College                                                            |
+| 25021     | 41375      | Babson College                                                                |
+| 25013     | 41376      | Bay Path University                                                           |
+| 25027     | 41377      | Becker College                                                                |
+| 25017     | 41378      | Bentley University                                                            |
+| 25017     | 41379      | Boston College                                                                |
+| 25025     | 41380      | Boston University                                                             |
+| 25017     | 41381      | Brandeis University                                                           |
+| 25023     | 41382      | Bridgewater State University                                                  |
+| 25027     | 41383      | Clark University                                                              |
+| 25013     | 41384      | College of Our Lady of the Elms                                               |
+| 25027     | 41385      | College of the Holy Cross                                                     |
+| 25021     | 41386      | Curry College                                                                 |
+| 25021     | 41387      | Dean College                                                                  |
+| 25021     | 41388      | Eastern Nazarene College                                                      |
+| 25025     | 41389      | Emerson College                                                               |
+| 25025     | 41390      | Emmanuel College                                                              |
+| 25009     | 41391      | Endicott College                                                              |
+| 25027     | 41392      | Fitchburg State University                                                    |
+| 25017     | 41393      | Framingham State University                                                   |
+| 25021     | 41394      | Franklin W Olin College of Engineering                                        |
+| 25009     | 41395      | Gordon College                                                                |
+| 25015     | 41396      | Hampshire College                                                             |
+| 25017     | 41397      | Harvard University                                                            |
+| 25017     | 41398      | Hebrew College                                                                |
+| 25017     | 41399      | Lasell University                                                             |
+| 25017     | 41400      | Lesley University                                                             |
+| 25025     | 41401      | Massachusetts College of Art and Design                                       |
+| 25003     | 41402      | Massachusetts College of Liberal Arts                                         |
+| 25025     | 41403      | Massachusetts College of Pharmacy and Health Sciences                         |
+| 25017     | 41404      | Massachusetts Institute of Technology                                         |
+| 25001     | 41405      | Massachusetts Maritime Academy                                                |
+| 25009     | 41406      | Merrimack College                                                             |
+| 25015     | 41407      | Mount Holyoke College                                                         |
+| 25027     | 41408      | Nichols College                                                               |
+| 25025     | 41409      | Northeastern University                                                       |
+| 25025     | 41410      | Pine Manor College                                                            |
+| 25017     | 41411      | Regis College                                                                 |
+| 25009     | 41412      | Salem State University                                                        |
+| 25025     | 41413      | Simmons University                                                            |
+| 25015     | 41414      | Smith College                                                                 |
+| 25013     | 41415      | Springfield College                                                           |
+| 25005     | 41416      | Stonehill College                                                             |
+| 25025     | 41417      | Suffolk University                                                            |
+| 25017     | 41418      | Tufts University                                                              |
+| 25015     | 41419      | University of Massachusetts Amherst                                           |
+| 25025     | 41420      | University of Massachusetts Boston                                            |
+| 25005     | 41421      | University of Massachusetts Dartmouth                                         |
+| 25017     | 41422      | University of Massachusetts Lowell                                            |
+| 25027     | 41423      | University of Massachusetts Medical School                                    |
+| 25021     | 41424      | Wellesley College                                                             |
+| 25025     | 41425      | Wentworth Institute of Technology                                             |
+| 25013     | 41426      | Western New England University                                                |
+| 25013     | 41427      | Westfield State University                                                    |
+| 25005     | 41428      | Wheaton College                                                               |
+| 25003     | 41429      | Williams College                                                              |
+| 25027     | 41430      | Worcester Polytechnic Institute                                               |
+| 25027     | 41431      | Worcester State University                                                    |
+| 26091     | 41432      | Adrian College                                                                |
+| 26025     | 41433      | Albion College                                                                |
+| 26057     | 41434      | Alma College                                                                  |
+| 26007     | 41435      | Alpena Community College                                                      |
+| 26021     | 41436      | Andrews University                                                            |
+| 26081     | 41437      | Aquinas College                                                               |
+| 26041     | 41438      | Bay College                                                                   |
+| 26033     | 41439      | Bay Mills Community College                                                   |
+| 26081     | 41440      | Calvin University                                                             |
+| 26073     | 41441      | Central Michigan University                                                   |
+| 26093     | 41442      | Cleary University                                                             |
+| 26161     | 41443      | Concordia University Ann Arbor                                                |
+| 26081     | 41444      | Cornerstone University                                                        |
+| 26081     | 41445      | Davenport University                                                          |
+| 26161     | 41446      | Eastern Michigan University                                                   |
+| 26107     | 41447      | Ferris State University                                                       |
+| 26061     | 41448      | Finlandia University                                                          |
+| 26149     | 41449      | Glen Oaks Community College                                                   |
+| 26081     | 41450      | Grand Rapids Community College                                                |
+| 26139     | 41451      | Grand Valley State University                                                 |
+| 26045     | 41452      | Great Lakes Christian College                                                 |
+| 26163     | 41453      | Henry Ford College                                                            |
+| 26059     | 41454      | Hillsdale College                                                             |
+| 26139     | 41455      | Hope College                                                                  |
+| 26075     | 41456      | Jackson College                                                               |
+| 26077     | 41457      | Kalamazoo College                                                             |
+| 26049     | 41458      | Kettering University                                                          |
+| 26081     | 41459      | Kuyper College                                                                |
+| 26021     | 41460      | Lake Michigan College                                                         |
+| 26033     | 41461      | Lake Superior State University                                                |
+| 26125     | 41462      | Lawrence Technological University                                             |
+| 26163     | 41463      | Madonna University                                                            |
+| 26065     | 41464      | Michigan State University                                                     |
+| 26061     | 41465      | Michigan Technological University                                             |
+| 26035     | 41466      | Mid Michigan College                                                          |
+| 26049     | 41467      | Mott Community College                                                        |
+| 26103     | 41468      | Northern Michigan University                                                  |
+| 26055     | 41469      | Northwestern Michigan College                                                 |
+| 26111     | 41470      | Northwood University                                                          |
+| 26125     | 41471      | Oakland University                                                            |
+| 26045     | 41472      | Olivet College                                                                |
+| 26125     | 41473      | Rochester University                                                          |
+| 26017     | 41474      | Saginaw Valley State University                                               |
+| 26163     | 41475      | Schoolcraft College                                                           |
+| 26091     | 41476      | Siena Heights University                                                      |
+| 26075     | 41477      | Spring Arbor University                                                       |
+| 26163     | 41478      | University of Detroit Mercy                                                   |
+| 26161     | 41479      | University of Michigan                                                        |
+| 26163     | 41480      | University of Michigan-Dearborn                                               |
+| 26049     | 41481      | University of Michigan-Flint                                                  |
+| 26161     | 41482      | Washtenaw Community College                                                   |
+| 26163     | 41483      | Wayne State University                                                        |
+| 26077     | 41484      | Western Michigan University                                                   |
+| 27041     | 41485      | Alexandria Technical & Community College                                      |
+| 27003     | 41486      | Anoka Technical College                                                       |
+| 27003     | 41487      | Anoka-Ramsey Community College                                                |
+| 27053     | 41488      | Augsburg University                                                           |
+| 27007     | 41489      | Bemidji State University                                                      |
+| 27013     | 41490      | Bethany Lutheran College                                                      |
+| 27123     | 41491      | Bethel University                                                             |
+| 27131     | 41492      | Carleton College                                                              |
+| 27035     | 41493      | Central Lakes College-Brainerd                                                |
+| 27159     | 41494      | Central Lakes College-Staples                                                 |
+| 27123     | 41495      | Century College                                                               |
+| 27145     | 41496      | College of Saint Benedict                                                     |
+| 27027     | 41497      | Concordia College at Moorhead                                                 |
+| 27123     | 41498      | Concordia University, St. Paul                                                |
+| 27053     | 41499      | Crown College                                                                 |
+| 27037     | 41500      | Dakota County Technical College                                               |
+| 27017     | 41501      | Fond du Lac Tribal and Community College                                      |
+| 27103     | 41502      | Gustavus Adolphus College                                                     |
+| 27123     | 41503      | Hamline University                                                            |
+| 27053     | 41504      | Hennepin Technical College                                                    |
+| 27137     | 41505      | Hibbing Community College                                                     |
+| 27037     | 41506      | Inver Hills Community College                                                 |
+| 27061     | 41507      | Itasca Community College                                                      |
+| 27137     | 41508      | Lake Superior College                                                         |
+| 27123     | 41509      | Macalester College                                                            |
+| 27015     | 41510      | Martin Luther College                                                         |
+| 27137     | 41511      | Mesabi Range College                                                          |
+| 27123     | 41512      | Metropolitan State University                                                 |
+| 27053     | 41513      | Minneapolis Community and Technical College                                   |
+| 27169     | 41514      | Minnesota State College Southeast                                             |
+| 27111     | 41515      | Minnesota State Community and Technical College                               |
+| 27027     | 41516      | Minnesota State University Moorhead                                           |
+| 27013     | 41517      | Minnesota State University, Mankato                                           |
+| 27173     | 41518      | Minnesota West Community and Technical College                                |
+| 27053     | 41519      | Normandale Community College                                                  |
+| 27053     | 41520      | North Central University                                                      |
+| 27053     | 41521      | North Hennepin Community College                                              |
+| 27113     | 41522      | Northland Community and Technical College                                     |
+| 27007     | 41523      | Northwest Technical College                                                   |
+| 27115     | 41524      | Pine Technical & Community College                                            |
+| 27071     | 41525      | Rainy River Community College                                                 |
+| 27067     | 41526      | Ridgewater College                                                            |
+| 27099     | 41527      | Riverland Community College                                                   |
+| 27109     | 41528      | Rochester Community and Technical College                                     |
+| 27145     | 41529      | Saint John's University                                                       |
+| 27169     | 41530      | Saint Mary's University of Minnesota                                          |
+| 27103     | 41531      | South Central College                                                         |
+| 27083     | 41532      | Southwest Minnesota State University                                          |
+| 27123     | 41533      | St. Catherine University                                                      |
+| 27145     | 41534      | St. Cloud State University                                                    |
+| 27145     | 41535      | St. Cloud Technical and Community College                                     |
+| 27131     | 41536      | St. Olaf College                                                              |
+| 27123     | 41537      | St. Paul College                                                              |
+| 27137     | 41538      | The College of Saint Scholastica                                              |
+| 27119     | 41539      | University of Minnesota Crookston                                             |
+| 27137     | 41540      | University of Minnesota Duluth                                                |
+| 27149     | 41541      | University of Minnesota Morris                                                |
+| 27109     | 41542      | University of Minnesota Rochester                                             |
+| 27053     | 41543      | University of Minnesota Twin Cities                                           |
+| 27123     | 41544      | University of Northwestern, St. Paul                                          |
+| 27123     | 41545      | University of St. Thomas                                                      |
+| 27137     | 41546      | Vermilion Community College                                                   |
+| 27169     | 41547      | Winona State University                                                       |
+| 28063     | 41548      | Alcorn State University                                                       |
+| 28049     | 41549      | Belhaven University                                                           |
+| 28011     | 41550      | Delta State University                                                        |
+| 28049     | 41551      | Jackson State University                                                      |
+| 28049     | 41552      | Millsaps College                                                              |
+| 28049     | 41553      | Mississippi College                                                           |
+| 28133     | 41554      | Mississippi Delta Community College                                           |
+| 28105     | 41555      | Mississippi State University                                                  |
+| 28087     | 41556      | Mississippi University for Women                                              |
+| 28083     | 41557      | Mississippi Valley State University                                           |
+| 28117     | 41558      | Northeast Mississippi Community College                                       |
+| 28093     | 41559      | Rust College                                                                  |
+| 28071     | 41560      | University of Mississippi                                                     |
+| 28049     | 41561      | University of Mississippi Medical Center                                      |
+| 28035     | 41562      | University of Southern Mississippi                                            |
+| 29089     | 41563      | Central Methodist University                                                  |
+| 29213     | 41564      | College of the Ozarks                                                         |
+| 29145     | 41565      | Crowder College                                                               |
+| 29077     | 41566      | Drury University                                                              |
+| 29077     | 41567      | Evangel University                                                            |
+| 29510     | 41568      | Fontbonne University                                                          |
+| 29095     | 41569      | Graceland University at Independence                                          |
+| 29510     | 41570      | Harris-Stowe State University                                                 |
+| 29051     | 41571      | Lincoln University of Missouri                                                |
+| 29183     | 41572      | Lindenwood University                                                         |
+| 29189     | 41573      | Maryville University Saint Louis                                              |
+| 29189     | 41574      | Missouri Baptist University                                                   |
+| 29077     | 41575      | Missouri State University                                                     |
+| 29161     | 41576      | Missouri University of Science and Technology                                 |
+| 29021     | 41577      | Missouri Western State University                                             |
+| 29147     | 41578      | Northwest Missouri State University                                           |
+| 29077     | 41579      | Ozarks Technical Community College                                            |
+| 29510     | 41580      | Saint Louis University                                                        |
+| 29031     | 41581      | Southeast Missouri State University                                           |
+| 29167     | 41582      | Southwest Baptist University                                                  |
+| 29510     | 41583      | St. Louis College of Pharmacy                                                 |
+| 29159     | 41584      | State Fair Community College                                                  |
+| 29019     | 41585      | Stephens College                                                              |
+| 29001     | 41586      | Truman State University                                                       |
+| 29101     | 41587      | University of Central Missouri                                                |
+| 29019     | 41588      | University of Missouri                                                        |
+| 29510     | 41589      | Webster University                                                            |
+| 29027     | 41590      | Westminster College                                                           |
+| 29047     | 41591      | William Jewell College                                                        |
+| 29027     | 41592      | William Woods University                                                      |
+| 30049     | 41593      | Carroll College                                                               |
+| 30021     | 41594      | Dawson Community College                                                      |
+| 30029     | 41595      | Flathead Valley Community College                                             |
+| 30013     | 41596      | Great Falls College Montana State University                                  |
+| 30049     | 41597      | Helena College                                                                |
+| 30003     | 41598      | Little Big Horn College                                                       |
+| 30017     | 41599      | Miles Community College                                                       |
+| 30031     | 41600      | Montana Bible College                                                         |
+| 30031     | 41601      | Montana State University                                                      |
+| 30111     | 41602      | Montana State University Billings                                             |
+| 30041     | 41603      | Montana State University Northern                                             |
+| 30093     | 41604      | Montana Technological University                                              |
+| 30001     | 41605      | Pima Medical Institute-Dillon                                                 |
+| 30111     | 41606      | Rocky Mountain College                                                        |
+| 30047     | 41607      | Salish Kootenai College                                                       |
+| 30041     | 41608      | Stone Child College                                                           |
+| 30063     | 41609      | University of Montana                                                         |
+| 30001     | 41610      | University of Montana Western                                                 |
+| 31045     | 41611      | Chadron State College                                                         |
+| 31159     | 41612      | Concordia University, Nebraska                                                |
+| 31055     | 41613      | Creighton University                                                          |
+| 31151     | 41614      | Doane University                                                              |
+| 31001     | 41615      | Hastings College                                                              |
+| 31053     | 41616      | Midland University                                                            |
+| 31109     | 41617      | Nebraska Wesleyan University                                                  |
+| 31127     | 41618      | Peru State College                                                            |
+| 31109     | 41619      | Southeast Community College                                                   |
+| 31055     | 41620      | University of Nebraska Medical Center                                         |
+| 31019     | 41621      | University of Nebraska at Kearney                                             |
+| 31055     | 41622      | University of Nebraska at Omaha                                               |
+| 31109     | 41623      | University of Nebraska-Lincoln                                                |
+| 31179     | 41624      | Wayne State College                                                           |
+| 32003     | 41625      | College of Southern Nevada                                                    |
+| 32007     | 41626      | Great Basin College                                                           |
+| 32003     | 41627      | Nevada State College                                                          |
+| 32031     | 41628      | Truckee Meadows Community College                                             |
+| 32003     | 41629      | University of Nevada, Las Vegas                                               |
+| 32031     | 41630      | University of Nevada, Reno                                                    |
+| 32510     | 41631      | Western Nevada College                                                        |
+| 33005     | 41632      | Antioch University-New England                                                |
+| 33013     | 41633      | Colby-Sawyer College                                                          |
+| 33009     | 41634      | Dartmouth College                                                             |
+| 33005     | 41635      | Franklin Pierce University                                                    |
+| 33013     | 41636      | Granite State College                                                         |
+| 33015     | 41637      | Great Bay Community College                                                   |
+| 33005     | 41638      | Keene State College                                                           |
+| 33001     | 41639      | Lakes Region Community College                                                |
+| 33013     | 41640      | Magdalen College                                                              |
+| 33013     | 41641      | NHTI-Concord's Community College                                              |
+| 33011     | 41642      | Nashua Community College                                                      |
+| 33013     | 41643      | New England College                                                           |
+| 33009     | 41644      | Plymouth State University                                                     |
+| 33019     | 41645      | River Valley Community College                                                |
+| 33011     | 41646      | Rivier University                                                             |
+| 33011     | 41647      | Saint Anselm College                                                          |
+| 33011     | 41648      | Southern New Hampshire University                                             |
+| 33011     | 41649      | St. Joseph School of Nursing                                                  |
+| 33011     | 41650      | Thomas More College of Liberal Arts                                           |
+| 33017     | 41651      | University of New Hampshire                                                   |
+| 33009     | 41652      | Upper Valley Educators Institute                                              |
+| 33007     | 41653      | White Mountains Community College                                             |
+| 34031     | 41654      | Berkeley College New Jersey campuses                                          |
+| 34013     | 41655      | Bloomfield College                                                            |
+| 34013     | 41656      | Caldwell University                                                           |
+| 34041     | 41657      | Centenary University                                                          |
+| 34027     | 41658      | Drew University                                                               |
+| 34003     | 41659      | Fairleigh Dickinson University                                                |
+| 34027     | 41660      | Fairleigh Dickinson University Florham                                        |
+| 34003     | 41661      | Felician University                                                           |
+| 34029     | 41662      | Georgian Court University                                                     |
+| 34039     | 41663      | Kean University                                                               |
+| 34025     | 41664      | Monmouth University                                                           |
+| 34013     | 41665      | Montclair State University                                                    |
+| 34017     | 41666      | New Jersey City University                                                    |
+| 34013     | 41667      | New Jersey Institute of Technology                                            |
+| 34021     | 41668      | Princeton University                                                          |
+| 34003     | 41669      | Ramapo College of New Jersey                                                  |
+| 34021     | 41670      | Rider University                                                              |
+| 34015     | 41671      | Rowan University                                                              |
+| 34023     | 41672      | Rutgers University                                                            |
+| 34007     | 41673      | Rutgers University-Camden                                                     |
+| 34013     | 41674      | Rutgers University-Newark                                                     |
+| 34027     | 41675      | Saint Elizabeth University                                                    |
+| 34017     | 41676      | Saint Peter's University                                                      |
+| 34013     | 41677      | Seton Hall University                                                         |
+| 34017     | 41678      | Stevens Institute of Technology                                               |
+| 34001     | 41679      | Stockton University                                                           |
+| 34021     | 41680      | The College of New Jersey                                                     |
+| 34021     | 41681      | Thomas Edison State University                                                |
+| 34031     | 41682      | William Paterson University                                                   |
+| 35041     | 41683      | Eastern New Mexico University                                                 |
+| 35049     | 41684      | Institute of American Indian Arts                                             |
+| 35031     | 41685      | Navajo Technical University                                                   |
+| 35047     | 41686      | New Mexico Highlands University                                               |
+| 35053     | 41687      | New Mexico Institute of Mining and Technology                                 |
+| 35005     | 41688      | New Mexico Military Institute                                                 |
+| 35013     | 41689      | New Mexico State University                                                   |
+| 35039     | 41690      | Northern New Mexico College                                                   |
+| 35045     | 41691      | San Juan College                                                              |
+| 35049     | 41692      | Santa Fe Community College                                                    |
+| 35001     | 41693      | University of New Mexico                                                      |
+| 35017     | 41694      | Western New Mexico University                                                 |
+| 36059     | 41695      | Adelphi University                                                            |
+| 36113     | 41696      | Adirondack Community College                                                  |
+| 36001     | 41697      | Albany College of Pharmacy and Health Sciences                                |
+| 36001     | 41698      | Albany Medical College                                                        |
+| 36003     | 41699      | Alfred University                                                             |
+| 36027     | 41700      | Bard College                                                                  |
+| 36067     | 41701      | Bryant & Stratton College                                                     |
+| 36001     | 41702      | Bryant & Stratton College-Albany                                              |
+| 36029     | 41703      | Bryant & Stratton College-Amherst                                             |
+| 36029     | 41704      | Bryant & Stratton College-Buffalo                                             |
+| 36055     | 41705      | Bryant & Stratton College-Greece                                              |
+| 36055     | 41706      | Bryant & Stratton College-Henrietta                                           |
+| 36029     | 41707      | Bryant & Stratton College-Southtowns                                          |
+| 36067     | 41708      | Bryant & Stratton College-Syracuse North                                      |
+| 36029     | 41709      | Canisius College                                                              |
+| 36011     | 41710      | Cayuga County Community College                                               |
+| 36053     | 41711      | Cazenovia College                                                             |
+| 36089     | 41712      | Clarkson University                                                           |
+| 36093     | 41713      | Clarkson University Capital Region Campus                                     |
+| 36019     | 41714      | Clinton Community College                                                     |
+| 36053     | 41715      | Colgate University                                                            |
+| 36021     | 41716      | Columbia-Greene Community College                                             |
+| 36119     | 41717      | Concordia College New York                                                    |
+| 36109     | 41718      | Cornell University                                                            |
+| 36027     | 41719      | Culinary Institute of America                                                 |
+| 36029     | 41720      | D'Youville College                                                            |
+| 36029     | 41721      | Daemen College                                                                |
+| 36007     | 41722      | Davis College                                                                 |
+| 36087     | 41723      | Dominican College                                                             |
+| 36027     | 41724      | Dutchess Community College                                                    |
+| 36051     | 41725      | Elim Bible Institute and College                                              |
+| 36007     | 41726      | Elmira Business Institute                                                     |
+| 36015     | 41727      | Elmira College                                                                |
+| 36029     | 41728      | Erie Community College                                                        |
+| 36001     | 41729      | Excelsior College                                                             |
+| 36059     | 41730      | Farmingdale State College                                                     |
+| 36069     | 41731      | Finger Lakes Community College                                                |
+| 36069     | 41732      | Finger Lakes Health College of Nursing & Health Sciences                      |
+| 36103     | 41733      | Five Towns College                                                            |
+| 36035     | 41734      | Fulton-Montgomery Community College                                           |
+| 36037     | 41735      | Genesee Community College                                                     |
+| 36065     | 41736      | Hamilton College                                                              |
+| 36077     | 41737      | Hartwick College                                                              |
+| 36043     | 41738      | Herkimer County Community College                                             |
+| 36029     | 41739      | Hilbert College                                                               |
+| 36069     | 41740      | Hobart William Smith Colleges                                                 |
+| 36059     | 41741      | Hofstra University                                                            |
+| 36003     | 41742      | Houghton College                                                              |
+| 36083     | 41743      | Hudson Valley Community College                                               |
+| 36119     | 41744      | Iona College                                                                  |
+| 36109     | 41745      | Ithaca College                                                                |
+| 36013     | 41746      | Jamestown Business College                                                    |
+| 36013     | 41747      | Jamestown Community College                                                   |
+| 36045     | 41748      | Jefferson Community College                                                   |
+| 36123     | 41749      | Keuka College                                                                 |
+| 36067     | 41750      | Le Moyne College                                                              |
+| 36059     | 41751      | Long Island University                                                        |
+| 36119     | 41752      | Manhattanville College                                                        |
+| 36001     | 41753      | Maria College of Albany                                                       |
+| 36027     | 41754      | Marist College                                                                |
+| 36029     | 41755      | Medaille College                                                              |
+| 36119     | 41756      | Mercy College                                                                 |
+| 36001     | 41757      | Mildred Elley School-Albany Campus                                            |
+| 36065     | 41758      | Mohawk Valley Community College                                               |
+| 36059     | 41759      | Molloy College                                                                |
+| 36055     | 41760      | Monroe Community College                                                      |
+| 36071     | 41761      | Mount Saint Mary College                                                      |
+| 36059     | 41762      | Nassau Community College                                                      |
+| 36055     | 41763      | Nazareth College                                                              |
+| 36099     | 41764      | New York Chiropractic College                                                 |
+| 36059     | 41765      | New York College of Health Professions                                        |
+| 36059     | 41766      | New York College of Traditional Chinese Medicine                              |
+| 36059     | 41767      | New York Institute of Technology                                              |
+| 36119     | 41768      | New York Medical College                                                      |
+| 36063     | 41769      | Niagara County Community College                                              |
+| 36063     | 41770      | Niagara University                                                            |
+| 36055     | 41771      | Northeastern Seminary                                                         |
+| 36067     | 41772      | Onondaga Community College                                                    |
+| 36071     | 41773      | Orange County Community College                                               |
+| 36033     | 41774      | Paul Smiths College                                                           |
+| 36083     | 41775      | Rensselaer Polytechnic Institute                                              |
+| 36055     | 41776      | Roberts Wesleyan College                                                      |
+| 36055     | 41777      | Rochester Institute of Technology                                             |
+| 36087     | 41778      | Rockland Community College                                                    |
+| 36083     | 41779      | Russell Sage College                                                          |
+| 36001     | 41780      | SUNY Albany                                                                   |
+| 36003     | 41781      | SUNY Alfred State College of Technology                                       |
+| 36007     | 41782      | SUNY Binghamton                                                               |
+| 36055     | 41783      | SUNY Brockport                                                                |
+| 36007     | 41784      | SUNY Broome Community College                                                 |
+| 36029     | 41785      | SUNY Buffalo State                                                            |
+| 36089     | 41786      | SUNY Canton                                                                   |
+| 36095     | 41787      | SUNY Cobleskill                                                               |
+| 36089     | 41788      | SUNY College at Potsdam                                                       |
+| 36067     | 41789      | SUNY College of Environmental Science and Forestry                            |
+| 36101     | 41790      | SUNY Corning Community College                                                |
+| 36023     | 41791      | SUNY Cortland                                                                 |
+| 36025     | 41792      | SUNY Delhi                                                                    |
+| 36091     | 41793      | SUNY Empire State College                                                     |
+| 36051     | 41794      | SUNY Geneseo                                                                  |
+| 36053     | 41795      | SUNY Morrisville                                                              |
+| 36111     | 41796      | SUNY New Paltz                                                                |
+| 36059     | 41797      | SUNY Old Westbury                                                             |
+| 36077     | 41798      | SUNY Oneonta                                                                  |
+| 36075     | 41799      | SUNY Oswego                                                                   |
+| 36019     | 41800      | SUNY Plattsburgh                                                              |
+| 36065     | 41801      | SUNY Polytechnic Institute                                                    |
+| 36119     | 41802      | SUNY Purchase College                                                         |
+| 36029     | 41803      | SUNY University at Buffalo                                                    |
+| 36119     | 41804      | SUNY Westchester Community College                                            |
+| 36013     | 41805      | SUNY at Fredonia                                                              |
+| 36065     | 41806      | Saint Elizabeth College of Nursing                                            |
+| 36119     | 41807      | Sarah Lawrence College                                                        |
+| 36093     | 41808      | Schenectady County Community College                                          |
+| 36001     | 41809      | Siena College                                                                 |
+| 36091     | 41810      | Skidmore College                                                              |
+| 36009     | 41811      | St. Bonaventure University                                                    |
+| 36055     | 41812      | St. John Fisher College                                                       |
+| 36103     | 41813      | St. Joseph's College Long Island                                              |
+| 36067     | 41814      | St. Joseph's College of Nursing                                               |
+| 36089     | 41815      | St. Lawrence University                                                       |
+| 36087     | 41816      | St. Thomas Aquinas College                                                    |
+| 36103     | 41817      | Stony Brook University                                                        |
+| 36103     | 41818      | Suffolk County Community College                                              |
+| 36105     | 41819      | Sullivan County Community College                                             |
+| 36067     | 41820      | Syracuse University                                                           |
+| 36001     | 41821      | The College of Saint Rose                                                     |
+| 36119     | 41822      | The College of Westchester                                                    |
+| 36109     | 41823      | Tompkins Cortland Community College                                           |
+| 36029     | 41824      | Trocaire College                                                              |
+| 36111     | 41825      | Ulster County Community College                                               |
+| 36093     | 41826      | Union College                                                                 |
+| 36059     | 41827      | United States Merchant Marine Academy                                         |
+| 36071     | 41828      | United States Military Academy West Point                                     |
+| 36055     | 41829      | University of Rochester                                                       |
+| 36067     | 41830      | Upstate Medical University                                                    |
+| 36065     | 41831      | Utica College                                                                 |
+| 36027     | 41832      | Vassar College                                                                |
+| 36029     | 41833      | Villa Maria College                                                           |
+| 36059     | 41834      | Webb Institute                                                                |
+| 36011     | 41835      | Wells College                                                                 |
+| 36113     | 41836      | Word of Life Bible Institute                                                  |
+| 37189     | 41837      | Appalachian State University                                                  |
+| 37195     | 41838      | Barton College                                                                |
+| 37071     | 41839      | Belmont Abbey College                                                         |
+| 37175     | 41840      | Brevard College                                                               |
+| 37085     | 41841      | Campbell University                                                           |
+| 37119     | 41842      | Carolinas College of Health Sciences                                          |
+| 37159     | 41843      | Catawba College                                                               |
+| 37091     | 41844      | Chowan University                                                             |
+| 37119     | 41845      | Davidson College                                                              |
+| 37063     | 41846      | Duke University                                                               |
+| 37063     | 41847      | Durham Technical Community College                                            |
+| 37147     | 41848      | East Carolina University                                                      |
+| 37139     | 41849      | Elizabeth City State University                                               |
+| 37001     | 41850      | Elon University                                                               |
+| 37051     | 41851      | Fayetteville State University                                                 |
+| 37045     | 41852      | Gardner-Webb University                                                       |
+| 37081     | 41853      | Greensboro College                                                            |
+| 37081     | 41854      | Guilford College                                                              |
+| 37081     | 41855      | High Point University                                                         |
+| 37119     | 41856      | Johnson & Wales University-Charlotte                                          |
+| 37119     | 41857      | Johnson C Smith University                                                    |
+| 37011     | 41858      | Lees-McRae College                                                            |
+| 37035     | 41859      | Lenoir-Rhyne University                                                       |
+| 37159     | 41860      | Livingstone College                                                           |
+| 37115     | 41861      | Mars Hill University                                                          |
+| 37183     | 41862      | Meredith College                                                              |
+| 37051     | 41863      | Methodist University                                                          |
+| 37021     | 41864      | Montreat College                                                              |
+| 37081     | 41865      | North Carolina A&T State University                                           |
+| 37063     | 41866      | North Carolina Central University                                             |
+| 37183     | 41867      | North Carolina State University                                               |
+| 37127     | 41868      | North Carolina Wesleyan College                                               |
+| 37167     | 41869      | Pfeiffer University                                                           |
+| 37119     | 41870      | Queens University of Charlotte                                                |
+| 37183     | 41871      | Saint Augustine's University                                                  |
+| 37067     | 41872      | Salem College                                                                 |
+| 37183     | 41873      | Shaw University                                                               |
+| 37191     | 41874      | University of Mount Olive                                                     |
+| 37021     | 41875      | University of North Carolina Asheville                                        |
+| 37067     | 41876      | University of North Carolina School of the Arts                               |
+| 37129     | 41877      | University of North Carolina Wilmington                                       |
+| 37135     | 41878      | University of North Carolina at Chapel Hill                                   |
+| 37119     | 41879      | University of North Carolina at Charlotte                                     |
+| 37081     | 41880      | University of North Carolina at Greensboro                                    |
+| 37155     | 41881      | University of North Carolina at Pembroke                                      |
+| 37067     | 41882      | Wake Forest University                                                        |
+| 37183     | 41883      | Wake Technical Community College                                              |
+| 37021     | 41884      | Warren Wilson College                                                         |
+| 37099     | 41885      | Western Carolina University                                                   |
+| 37183     | 41886      | William Peace University                                                      |
+| 37179     | 41887      | Wingate University                                                            |
+| 37067     | 41888      | Winston-Salem State University                                                |
+| 38015     | 41889      | Bismarck State College                                                        |
+| 38009     | 41890      | Dakota College at Bottineau                                                   |
+| 38089     | 41891      | Dickinson State University                                                    |
+| 38071     | 41892      | Lake Region State College                                                     |
+| 38097     | 41893      | Mayville State University                                                     |
+| 38101     | 41894      | Minot State University                                                        |
+| 38077     | 41895      | North Dakota State College of Science                                         |
+| 38017     | 41896      | North Dakota State University                                                 |
+| 38061     | 41897      | Nueta Hidatsa Sahnish College                                                 |
+| 38085     | 41898      | Sitting Bull College                                                          |
+| 38015     | 41899      | University of Mary                                                            |
+| 38035     | 41900      | University of North Dakota                                                    |
+| 38003     | 41901      | Valley City State University                                                  |
+| 38105     | 41902      | Williston State College                                                       |
+| 39113     | 41903      | Air Force Institute of Technology-Graduate School of Engineering & Management |
+| 39005     | 41904      | Ashland University                                                            |
+| 39035     | 41905      | Baldwin Wallace University                                                    |
+| 39003     | 41906      | Bluffton University                                                           |
+| 39173     | 41907      | Bowling Green State University                                                |
+| 39043     | 41908      | Bowling Green State University Firelands                                      |
+| 39049     | 41909      | Capital University                                                            |
+| 39035     | 41910      | Case Western Reserve University                                               |
+| 39057     | 41911      | Cedarville University                                                         |
+| 39057     | 41912      | Central State University                                                      |
+| 39023     | 41913      | Clark State Community College                                                 |
+| 39035     | 41914      | Cleveland State University                                                    |
+| 39049     | 41915      | Columbus College of Art and Design                                            |
+| 39035     | 41916      | Cuyahoga Community College District                                           |
+| 39039     | 41917      | Defiance College                                                              |
+| 39089     | 41918      | Denison University                                                            |
+| 39081     | 41919      | Franciscan University of Steubenville                                         |
+| 39147     | 41920      | Heidelberg University                                                         |
+| 39133     | 41921      | Hiram College                                                                 |
+| 39035     | 41922      | John Carroll University                                                       |
+| 39133     | 41923      | Kent State University                                                         |
+| 39055     | 41924      | Kent State University Geauga Campus                                           |
+| 39007     | 41925      | Kent State University at Ashtabula                                            |
+| 39029     | 41926      | Kent State University at East Liverpool                                       |
+| 39029     | 41927      | Kent State University at Salem                                                |
+| 39151     | 41928      | Kent State University at Stark                                                |
+| 39155     | 41929      | Kent State University at Trumbull                                             |
+| 39157     | 41930      | Kent State University at Tuscarawas                                           |
+| 39083     | 41931      | Kenyon College                                                                |
+| 39085     | 41932      | Lake Erie College                                                             |
+| 39093     | 41933      | Lorain County Community College                                               |
+| 39095     | 41934      | Lourdes University                                                            |
+| 39151     | 41935      | Malone University                                                             |
+| 39167     | 41936      | Marietta College                                                              |
+| 39017     | 41937      | Miami University (Ohio)                                                       |
+| 39061     | 41938      | Mount Saint Joseph University                                                 |
+| 39119     | 41939      | Muskingum University                                                          |
+| 39139     | 41940      | North Central State College                                                   |
+| 39133     | 41941      | Northeast Ohio Medical University                                             |
+| 39035     | 41942      | Notre Dame College                                                            |
+| 39093     | 41943      | Oberlin College                                                               |
+| 39049     | 41944      | Ohio Dominican University                                                     |
+| 39065     | 41945      | Ohio Northern University                                                      |
+| 39049     | 41946      | Ohio State University                                                         |
+| 39009     | 41947      | Ohio University                                                               |
+| 39141     | 41948      | Ohio University-Chillicothe                                                   |
+| 39013     | 41949      | Ohio University-Eastern                                                       |
+| 39045     | 41950      | Ohio University-Lancaster                                                     |
+| 39087     | 41951      | Ohio University-Southern                                                      |
+| 39119     | 41952      | Ohio University-Zanesville                                                    |
+| 39041     | 41953      | Ohio Wesleyan University                                                      |
+| 39049     | 41954      | Otterbein University                                                          |
+| 39145     | 41955      | Shawnee State University                                                      |
+| 39113     | 41956      | Sinclair Community College                                                    |
+| 39143     | 41957      | Terra State Community College                                                 |
+| 39169     | 41958      | The College of Wooster                                                        |
+| 39063     | 41959      | The University of Findlay                                                     |
+| 39147     | 41960      | Tiffin University                                                             |
+| 39153     | 41961      | University of Akron                                                           |
+| 39061     | 41962      | University of Cincinnati                                                      |
+| 39113     | 41963      | University of Dayton                                                          |
+| 39151     | 41964      | University of Mount Union                                                     |
+| 39095     | 41965      | University of Toledo                                                          |
+| 39035     | 41966      | Ursuline College                                                              |
+| 39151     | 41967      | Walsh University                                                              |
+| 39027     | 41968      | Wilmington College                                                            |
+| 39023     | 41969      | Wittenberg University                                                         |
+| 39113     | 41970      | Wright State University                                                       |
+| 39107     | 41971      | Wright State University-Lake Campus                                           |
+| 39061     | 41972      | Xavier University                                                             |
+| 39099     | 41973      | Youngstown State University                                                   |
+| 40031     | 41974      | Cameron University                                                            |
+| 40123     | 41975      | East Central University                                                       |
+| 40083     | 41976      | Langston University                                                           |
+| 40021     | 41977      | Northeastern State University                                                 |
+| 40071     | 41978      | Northern Oklahoma College                                                     |
+| 40151     | 41979      | Northwestern Oklahoma State University                                        |
+| 40125     | 41980      | Oklahoma Baptist University                                                   |
+| 40109     | 41981      | Oklahoma Christian University                                                 |
+| 40109     | 41982      | Oklahoma City University                                                      |
+| 40139     | 41983      | Oklahoma Panhandle State University                                           |
+| 40119     | 41984      | Oklahoma State University                                                     |
+| 40143     | 41985      | Oklahoma State University Center for Health Sciences                          |
+| 40111     | 41986      | Oklahoma State University Institute of Technology                             |
+| 40109     | 41987      | Oklahoma State University-Oklahoma City                                       |
+| 40143     | 41988      | Oral Roberts University                                                       |
+| 40131     | 41989      | Rogers State University                                                       |
+| 40109     | 41990      | Rose State College                                                            |
+| 40013     | 41991      | Southeastern Oklahoma State University                                        |
+| 40109     | 41992      | Southern Nazarene University                                                  |
+| 40039     | 41993      | Southwestern Oklahoma State University                                        |
+| 40109     | 41994      | University of Central Oklahoma                                                |
+| 40027     | 41995      | University of Oklahoma                                                        |
+| 40051     | 41996      | University of Science and Arts of Oklahoma                                    |
+| 40143     | 41997      | University of Tulsa                                                           |
+| 41061     | 41998      | Eastern Oregon University                                                     |
+| 41071     | 41999      | George Fox University                                                         |
+| 41039     | 42000      | Lane Community College                                                        |
+| 41051     | 42001      | Lewis & Clark College                                                         |
+| 41071     | 42002      | Linfield University                                                           |
+| 41051     | 42003      | Linfield University-School of Nursing                                         |
+| 41051     | 42004      | Oregon Health & Science University                                            |
+| 41035     | 42005      | Oregon Institute of Technology                                                |
+| 41003     | 42006      | Oregon State University                                                       |
+| 41017     | 42007      | Oregon State University-Cascades                                              |
+| 41067     | 42008      | Pacific University                                                            |
+| 41051     | 42009      | Portland State University                                                     |
+| 41051     | 42010      | Reed College                                                                  |
+| 41029     | 42011      | Southern Oregon University                                                    |
+| 41039     | 42012      | University of Oregon                                                          |
+| 41051     | 42013      | University of Portland                                                        |
+| 41053     | 42014      | Western Oregon University                                                     |
+| 41047     | 42015      | Willamette University                                                         |
+| 42011     | 42016      | Albright College                                                              |
+| 42039     | 42017      | Allegheny College                                                             |
+| 42011     | 42018      | Alvernia University                                                           |
+| 42091     | 42019      | Arcadia University                                                            |
+| 42037     | 42020      | Bloomsburg University of Pennsylvania                                         |
+| 42091     | 42021      | Bryn Athyn College                                                            |
+| 42091     | 42022      | Bryn Mawr College                                                             |
+| 42119     | 42023      | Bucknell University                                                           |
+| 42045     | 42024      | Cabrini University                                                            |
+| 42017     | 42025      | Cairn University                                                              |
+| 42125     | 42026      | California University of Pennsylvania                                         |
+| 42003     | 42027      | Carnegie Mellon University                                                    |
+| 42077     | 42028      | Cedar Crest College                                                           |
+| 42003     | 42029      | Chatham University                                                            |
+| 42101     | 42030      | Chestnut Hill College                                                         |
+| 42045     | 42031      | Cheyney University of Pennsylvania                                            |
+| 42031     | 42032      | Clarion University of Pennsylvania                                            |
+| 42069     | 42033      | Clarks Summit University                                                      |
+| 42003     | 42034      | Community College of Allegheny County                                         |
+| 42077     | 42035      | DeSales University                                                            |
+| 42017     | 42036      | Delaware Valley University                                                    |
+| 42041     | 42037      | Dickinson College                                                             |
+| 42101     | 42038      | Drexel University                                                             |
+| 42003     | 42039      | Duquesne University                                                           |
+| 42089     | 42040      | East Stroudsburg University                                                   |
+| 42045     | 42041      | Eastern University                                                            |
+| 42049     | 42042      | Edinboro University                                                           |
+| 42071     | 42043      | Elizabethtown College                                                         |
+| 42071     | 42044      | Franklin and Marshall College                                                 |
+| 42049     | 42045      | Gannon University                                                             |
+| 42007     | 42046      | Geneva College                                                                |
+| 42001     | 42047      | Gettysburg College                                                            |
+| 42085     | 42048      | Grove City College                                                            |
+| 42091     | 42049      | Gwynedd Mercy University                                                      |
+| 42045     | 42050      | Haverford College                                                             |
+| 42101     | 42051      | Holy Family University                                                        |
+| 42029     | 42052      | Immaculata University                                                         |
+| 42063     | 42053      | Indiana University of Pennsylvania                                            |
+| 42061     | 42054      | Juniata College                                                               |
+| 42069     | 42055      | Keystone College                                                              |
+| 42079     | 42056      | King's College                                                                |
+| 42011     | 42057      | Kutztown University                                                           |
+| 42003     | 42058      | La Roche University                                                           |
+| 42101     | 42059      | La Salle University                                                           |
+| 42095     | 42060      | Lafayette College                                                             |
+| 42071     | 42061      | Lancaster Bible College                                                       |
+| 42075     | 42062      | Lebanon Valley College                                                        |
+| 42095     | 42063      | Lehigh University                                                             |
+| 42029     | 42064      | Lincoln University                                                            |
+| 42035     | 42065      | Lock Haven University                                                         |
+| 42081     | 42066      | Lycoming College                                                              |
+| 42117     | 42067      | Mansfield University of Pennsylvania                                          |
+| 42069     | 42068      | Marywood University                                                           |
+| 42049     | 42069      | Mercyhurst University                                                         |
+| 42041     | 42070      | Messiah University                                                            |
+| 42071     | 42071      | Millersville University of Pennsylvania                                       |
+| 42079     | 42072      | Misericordia University                                                       |
+| 42095     | 42073      | Moravian College                                                              |
+| 42021     | 42074      | Mount Aloysius College                                                        |
+| 42077     | 42075      | Muhlenberg College                                                            |
+| 42045     | 42076      | Neumann University                                                            |
+| 42027     | 42077      | Penn State University                                                         |
+| 42091     | 42078      | Penn State University Abington                                                |
+| 42013     | 42079      | Penn State University Altoona                                                 |
+| 42007     | 42080      | Penn State University Beaver                                                  |
+| 42049     | 42081      | Penn State University Behrend                                                 |
+| 42011     | 42082      | Penn State University Berks                                                   |
+| 42045     | 42083      | Penn State University Brandywine                                              |
+| 42043     | 42084      | Penn State University College of Medicine                                     |
+| 42041     | 42085      | Penn State University Dickinson Law                                           |
+| 42033     | 42086      | Penn State University DuBois                                                  |
+| 42051     | 42087      | Penn State University Fayette                                                 |
+| 42029     | 42088      | Penn State University Great Valley                                            |
+| 42003     | 42089      | Penn State University Greater Allegheny                                       |
+| 42043     | 42090      | Penn State University Harrisburg                                              |
+| 42079     | 42091      | Penn State University Hazleton                                                |
+| 42077     | 42092      | Penn State University Lehigh Valley                                           |
+| 42055     | 42093      | Penn State University Mont Alto                                               |
+| 42129     | 42094      | Penn State University New Kensington                                          |
+| 42107     | 42095      | Penn State University Schuylkill                                              |
+| 42069     | 42096      | Penn State University Scranton                                                |
+| 42085     | 42097      | Penn State University Shenango                                                |
+| 42079     | 42098      | Penn State University Wilkes-Barre                                            |
+| 42133     | 42099      | Penn State University York                                                    |
+| 42081     | 42100      | Pennsylvania College of Technology                                            |
+| 42003     | 42101      | Point Park University                                                         |
+| 42003     | 42102      | Robert Morris University                                                      |
+| 42091     | 42103      | Rosemont College                                                              |
+| 42021     | 42104      | Saint Francis University                                                      |
+| 42101     | 42105      | Saint Joseph's University                                                     |
+| 42129     | 42106      | Saint Vincent College                                                         |
+| 42129     | 42107      | Seton Hill University                                                         |
+| 42055     | 42108      | Shippensburg University of Pennsylvania                                       |
+| 42019     | 42109      | Slippery Rock University of Pennsylvania                                      |
+| 42109     | 42110      | Susquehanna University                                                        |
+| 42045     | 42111      | Swarthmore College                                                            |
+| 42101     | 42112      | Temple University                                                             |
+| 42085     | 42113      | Thiel College                                                                 |
+| 42101     | 42114      | Thomas Jefferson University                                                   |
+| 42101     | 42115      | University of Pennsylvania                                                    |
+| 42003     | 42116      | University of Pittsburgh                                                      |
+| 42021     | 42117      | University of Pittsburgh Johnstown                                            |
+| 42083     | 42118      | University of Pittsburgh at Bradford                                          |
+| 42129     | 42119      | University of Pittsburgh at Greensburg                                        |
+| 42069     | 42120      | University of Scranton                                                        |
+| 42029     | 42121      | University of Valley Forge                                                    |
+| 42101     | 42122      | University of the Sciences                                                    |
+| 42091     | 42123      | Ursinus College                                                               |
+| 42045     | 42124      | Villanova University                                                          |
+| 42125     | 42125      | Washington & Jefferson College                                                |
+| 42059     | 42126      | Waynesburg University                                                         |
+| 42029     | 42127      | West Chester University                                                       |
+| 42073     | 42128      | Westminster College                                                           |
+| 42045     | 42129      | Widener University                                                            |
+| 42079     | 42130      | Wilkes University                                                             |
+| 42055     | 42131      | Wilson College                                                                |
+| 42133     | 42132      | York College of Pennsylvania                                                  |
+| 44007     | 42133      | Brown University                                                              |
+| 44007     | 42134      | Bryant University                                                             |
+| 44007     | 42135      | Johnson & Wales University                                                    |
+| 44007     | 42136      | Providence College                                                            |
+| 44007     | 42137      | Rhode Island College                                                          |
+| 44007     | 42138      | Rhode Island School of Design                                                 |
+| 44001     | 42139      | Roger Williams University                                                     |
+| 44005     | 42140      | Salve Regina University                                                       |
+| 44009     | 42141      | University of Rhode Island                                                    |
+| 45007     | 42142      | Anderson University                                                           |
+| 45079     | 42143      | Benedict College                                                              |
+| 45045     | 42144      | Bob Jones University                                                          |
+| 45019     | 42145      | Charleston Southern University                                                |
+| 45075     | 42146      | Claflin University                                                            |
+| 45077     | 42147      | Clemson University                                                            |
+| 45051     | 42148      | Coastal Carolina University                                                   |
+| 45031     | 42149      | Coker University                                                              |
+| 45019     | 42150      | College of Charleston                                                         |
+| 45083     | 42151      | Converse College                                                              |
+| 45001     | 42152      | Erskine College                                                               |
+| 45041     | 42153      | Francis Marion University                                                     |
+| 45045     | 42154      | Furman University                                                             |
+| 45045     | 42155      | Greenville Technical College                                                  |
+| 45047     | 42156      | Lander University                                                             |
+| 45021     | 42157      | Limestone College                                                             |
+| 45019     | 42158      | Medical University of South Carolina                                          |
+| 45071     | 42159      | Newberry College                                                              |
+| 45045     | 42160      | North Greenville University                                                   |
+| 45059     | 42161      | Presbyterian College                                                          |
+| 45075     | 42162      | South Carolina State University                                               |
+| 45077     | 42163      | Southern Wesleyan University                                                  |
+| 45019     | 42164      | The Citadel                                                                   |
+| 45007     | 42165      | Tri-County Technical College                                                  |
+| 45079     | 42166      | University of South Carolina                                                  |
+| 45003     | 42167      | University of South Carolina Aiken                                            |
+| 45013     | 42168      | University of South Carolina Beaufort                                         |
+| 45083     | 42169      | University of South Carolina Upstate                                          |
+| 45091     | 42170      | Winthrop University                                                           |
+| 45083     | 42171      | Wofford College                                                               |
+| 46099     | 42172      | Augustana University                                                          |
+| 46081     | 42173      | Black Hills State University                                                  |
+| 46079     | 42174      | Dakota State University                                                       |
+| 46135     | 42175      | Mount Marty College                                                           |
+| 46013     | 42176      | Northern State University                                                     |
+| 46102     | 42177      | Oglala Lakota College                                                         |
+| 46121     | 42178      | Sinte Gleska University                                                       |
+| 46103     | 42179      | South Dakota School of Mines and Technology                                   |
+| 46011     | 42180      | South Dakota State University                                                 |
+| 46099     | 42181      | University of Sioux Falls                                                     |
+| 46027     | 42182      | University of South Dakota                                                    |
+| 47125     | 42183      | Austin Peay State University                                                  |
+| 47037     | 42184      | Belmont University                                                            |
+| 47017     | 42185      | Bethel University                                                             |
+| 47089     | 42186      | Carson-Newman University                                                      |
+| 47065     | 42187      | Chattanooga State Community College                                           |
+| 47157     | 42188      | Christian Brothers University                                                 |
+| 47011     | 42189      | Cleveland State Community College                                             |
+| 47119     | 42190      | Columbia State Community College                                              |
+| 47189     | 42191      | Cumberland University                                                         |
+| 47045     | 42192      | Dyersburg State Community College                                             |
+| 47179     | 42193      | East Tennessee State University                                               |
+| 47113     | 42194      | Jackson State Community College                                               |
+| 47163     | 42195      | King University                                                               |
+| 47113     | 42196      | Lane College                                                                  |
+| 47157     | 42197      | LeMoyne-Owen College                                                          |
+| 47011     | 42198      | Lee University                                                                |
+| 47025     | 42199      | Lincoln Memorial University                                                   |
+| 47037     | 42200      | Lipscomb University                                                           |
+| 47009     | 42201      | Maryville College                                                             |
+| 47149     | 42202      | Middle Tennessee State University                                             |
+| 47019     | 42203      | Milligan University                                                           |
+| 47127     | 42204      | Motlow State Community College                                                |
+| 47037     | 42205      | Nashville State Community College                                             |
+| 47163     | 42206      | Northeast State Community College                                             |
+| 47093     | 42207      | Pellissippi State Community College                                           |
+| 47157     | 42208      | Rhodes College                                                                |
+| 47145     | 42209      | Roane State Community College                                                 |
+| 47065     | 42210      | Southern Adventist University                                                 |
+| 47157     | 42211      | Southwest Tennessee Community College                                         |
+| 47107     | 42212      | Tennessee College of Applied Technology-Athens                                |
+| 47167     | 42213      | Tennessee College of Applied Technology-Covington                             |
+| 47035     | 42214      | Tennessee College of Applied Technology-Crossville                            |
+| 47071     | 42215      | Tennessee College of Applied Technology-Crump                                 |
+| 47043     | 42216      | Tennessee College of Applied Technology-Dickson                               |
+| 47019     | 42217      | Tennessee College of Applied Technology-Elizabethton                          |
+| 47145     | 42218      | Tennessee College of Applied Technology-Harriman                              |
+| 47169     | 42219      | Tennessee College of Applied Technology-Hartsville                            |
+| 47101     | 42220      | Tennessee College of Applied Technology-Hohenwald                             |
+| 47013     | 42221      | Tennessee College of Applied Technology-Jacksboro                             |
+| 47113     | 42222      | Tennessee College of Applied Technology-Jackson                               |
+| 47093     | 42223      | Tennessee College of Applied Technology-Knoxville                             |
+| 47133     | 42224      | Tennessee College of Applied Technology-Livingston                            |
+| 47183     | 42225      | Tennessee College of Applied Technology-McKenzie                              |
+| 47177     | 42226      | Tennessee College of Applied Technology-McMinnville                           |
+| 47157     | 42227      | Tennessee College of Applied Technology-Memphis                               |
+| 47063     | 42228      | Tennessee College of Applied Technology-Morristown                            |
+| 47149     | 42229      | Tennessee College of Applied Technology-Murfreesboro                          |
+| 47037     | 42230      | Tennessee College of Applied Technology-Nashville                             |
+| 47045     | 42231      | Tennessee College of Applied Technology-Newbern                               |
+| 47151     | 42232      | Tennessee College of Applied Technology-Oneida/Huntsville                     |
+| 47079     | 42233      | Tennessee College of Applied Technology-Paris                                 |
+| 47055     | 42234      | Tennessee College of Applied Technology-Pulaski                               |
+| 47097     | 42235      | Tennessee College of Applied Technology-Ripley                                |
+| 47003     | 42236      | Tennessee College of Applied Technology-Shelbyville                           |
+| 47069     | 42237      | Tennessee College of Applied Technology-Whiteville                            |
+| 47037     | 42238      | Tennessee State University                                                    |
+| 47141     | 42239      | Tennessee Technological University                                            |
+| 47051     | 42240      | The University of the South                                                   |
+| 47037     | 42241      | Trevecca Nazarene University                                                  |
+| 47059     | 42242      | Tusculum University                                                           |
+| 47113     | 42243      | Union University                                                              |
+| 47157     | 42244      | University of Memphis                                                         |
+| 47157     | 42245      | University of Tennessee Health Science Center                                 |
+| 47065     | 42246      | University of Tennessee at Chattanooga                                        |
+| 47183     | 42247      | University of Tennessee at Martin                                             |
+| 47093     | 42248      | University of Tennessee, Knoxville                                            |
+| 47037     | 42249      | Vanderbilt University                                                         |
+| 47165     | 42250      | Volunteer State Community College                                             |
+| 47063     | 42251      | Walters State Community College                                               |
+| 48441     | 42252      | Abilene Christian University                                                  |
+| 48451     | 42253      | Angelo State University                                                       |
+| 48181     | 42254      | Austin College                                                                |
+| 48453     | 42255      | Austin Community College District                                             |
+| 48309     | 42256      | Baylor University                                                             |
+| 48477     | 42257      | Blinn College                                                                 |
+| 48039     | 42258      | Brazosport College                                                            |
+| 48085     | 42259      | Collin College McKinney                                                       |
+| 48453     | 42260      | Concordia University Texas                                                    |
+| 48113     | 42261      | Dallas Baptist University                                                     |
+| 48203     | 42262      | East Texas Baptist University                                                 |
+| 48167     | 42263      | Galveston College                                                             |
+| 48181     | 42264      | Grayson College                                                               |
+| 48441     | 42265      | Hardin-Simmons University                                                     |
+| 48217     | 42266      | Hill College                                                                  |
+| 48201     | 42267      | Houston Baptist University                                                    |
+| 48049     | 42268      | Howard Payne University                                                       |
+| 48245     | 42269      | Lamar University                                                              |
+| 48479     | 42270      | Laredo College                                                                |
+| 48183     | 42271      | LeTourneau University                                                         |
+| 48303     | 42272      | Lubbock Christian University                                                  |
+| 48309     | 42273      | McLennan Community College                                                    |
+| 48441     | 42274      | McMurry University                                                            |
+| 48329     | 42275      | Midland College                                                               |
+| 48485     | 42276      | Midwestern State University                                                   |
+| 48135     | 42277      | Odessa College                                                                |
+| 48473     | 42278      | Prairie View A&M University                                                   |
+| 48201     | 42279      | Rice University                                                               |
+| 48453     | 42280      | Saint Edward's University                                                     |
+| 48471     | 42281      | Sam Houston State University                                                  |
+| 48265     | 42282      | Schreiner University                                                          |
+| 48219     | 42283      | South Plains College                                                          |
+| 48215     | 42284      | South Texas College                                                           |
+| 48113     | 42285      | Southern Methodist University                                                 |
+| 48491     | 42286      | Southwestern University                                                       |
+| 48029     | 42287      | St. Mary's University                                                         |
+| 48347     | 42288      | Stephen F. Austin State University                                            |
+| 48043     | 42289      | Sul Ross State University                                                     |
+| 48143     | 42290      | Tarleton State University                                                     |
+| 48037     | 42291      | Texarkana College                                                             |
+| 48479     | 42292      | Texas A&M International University                                            |
+| 48041     | 42293      | Texas A&M University                                                          |
+| 48027     | 42294      | Texas A&M University-Central Texas                                            |
+| 48231     | 42295      | Texas A&M University-Commerce                                                 |
+| 48355     | 42296      | Texas A&M University-Corpus Christi                                           |
+| 48273     | 42297      | Texas A&M University-Kingsville                                               |
+| 48029     | 42298      | Texas A&M University-San Antonio                                              |
+| 48037     | 42299      | Texas A&M University-Texarkana                                                |
+| 48439     | 42300      | Texas Christian University                                                    |
+| 48423     | 42301      | Texas College                                                                 |
+| 48187     | 42302      | Texas Lutheran University                                                     |
+| 48201     | 42303      | Texas Southern University                                                     |
+| 48209     | 42304      | Texas State University                                                        |
+| 48303     | 42305      | Texas Tech University                                                         |
+| 48303     | 42306      | Texas Tech University Health Sciences Center                                  |
+| 48141     | 42307      | Texas Tech University Health Sciences Center El Paso                          |
+| 48439     | 42308      | Texas Wesleyan University                                                     |
+| 48121     | 42309      | Texas Woman’s University                                                      |
+| 48029     | 42310      | Trinity University                                                            |
+| 48423     | 42311      | Tyler Junior College                                                          |
+| 48113     | 42312      | University of Dallas                                                          |
+| 48201     | 42313      | University of Houston                                                         |
+| 48201     | 42314      | University of Houston-Clear Lake                                              |
+| 48201     | 42315      | University of Houston-Downtown                                                |
+| 48469     | 42316      | University of Houston-Victoria                                                |
+| 48027     | 42317      | University of Mary Hardin at Baylor                                           |
+| 48121     | 42318      | University of North Texas                                                     |
+| 48439     | 42319      | University of North Texas Health Science Center                               |
+| 48113     | 42320      | University of North Texas at Dallas                                           |
+| 48201     | 42321      | University of St. Thomas                                                      |
+| 48201     | 42322      | University of Texas Health Science Center at Houston                          |
+| 48029     | 42323      | University of Texas Health Science Center at San Antonio                      |
+| 48423     | 42324      | University of Texas Health Science Center at Tyler                            |
+| 48201     | 42325      | University of Texas MD Anderson Cancer Center                                 |
+| 48167     | 42326      | University of Texas Medical Branch at Galveston                               |
+| 48135     | 42327      | University of Texas Permian Basin                                             |
+| 48215     | 42328      | University of Texas Rio Grande Valley                                         |
+| 48113     | 42329      | University of Texas Southwestern Medical Center                               |
+| 48439     | 42330      | University of Texas at Arlington                                              |
+| 48453     | 42331      | University of Texas at Austin                                                 |
+| 48113     | 42332      | University of Texas at Dallas                                                 |
+| 48141     | 42333      | University of Texas at El Paso                                                |
+| 48029     | 42334      | University of Texas at San Antonio                                            |
+| 48423     | 42335      | University of Texas at Tyler                                                  |
+| 48029     | 42336      | University of the Incarnate Word                                              |
+| 48189     | 42337      | Wayland Baptist University                                                    |
+| 48381     | 42338      | West Texas A&M University                                                     |
+| 49049     | 42339      | Brigham Young University                                                      |
+| 49053     | 42340      | Dixie State University                                                        |
+| 49035     | 42341      | Salt Lake Community College                                                   |
+| 49039     | 42342      | Snow College                                                                  |
+| 49021     | 42343      | Southern Utah University                                                      |
+| 49035     | 42344      | University of Utah                                                            |
+| 49005     | 42345      | Utah State University                                                         |
+| 49049     | 42346      | Utah Valley University                                                        |
+| 49057     | 42347      | Weber State University                                                        |
+| 49035     | 42348      | Westminster College                                                           |
+| 50003     | 42349      | Bennington College                                                            |
+| 50021     | 42350      | Castleton University                                                          |
+| 50007     | 42351      | Champlain College                                                             |
+| 50023     | 42352      | Community College of Vermont                                                  |
+| 50023     | 42353      | Goddard College                                                               |
+| 50025     | 42354      | Landmark College                                                              |
+| 50001     | 42355      | Middlebury College                                                            |
+| 50015     | 42356      | Northern Vermont University-Johnson                                           |
+| 50005     | 42357      | Northern Vermont University-Lyndon                                            |
+| 50023     | 42358      | Norwich University                                                            |
+| 50007     | 42359      | Saint Michael's College                                                       |
+| 50019     | 42360      | Sterling College                                                              |
+| 50007     | 42361      | University of Vermont                                                         |
+| 50023     | 42362      | Vermont College of Fine Arts                                                  |
+| 50027     | 42363      | Vermont Law School                                                            |
+| 50017     | 42364      | Vermont Technical College                                                     |
+| 51185     | 42365      | Bluefield College                                                             |
+| 51165     | 42366      | Bridgewater College                                                           |
+| 51037     | 42367      | Eastern Mennonite University                                                  |
+| 51191     | 42368      | Emory & Henry College                                                         |
+| 51067     | 42369      | Ferrum College                                                                |
+| 51059     | 42370      | George Mason University                                                       |
+| 51147     | 42371      | Hampden-Sydney College                                                        |
+| 51161     | 42372      | Hollins University                                                            |
+| 51165     | 42373      | James Madison University                                                      |
+| 51031     | 42374      | Liberty University                                                            |
+| 51147     | 42375      | Longwood University                                                           |
+| 51013     | 42376      | Marymount University                                                          |
+| 51031     | 42377      | Randolph College                                                              |
+| 51085     | 42378      | Randolph-Macon College                                                        |
+| 51161     | 42379      | Roanoke College                                                               |
+| 51069     | 42380      | Shenandoah University                                                         |
+| 51009     | 42381      | Sweet Briar College                                                           |
+| 51087     | 42382      | University of Richmond                                                        |
+| 51195     | 42383      | University of Virginia's College at Wise                                      |
+| 51159     | 42384      | Virginia Commonwealth University                                              |
+| 51191     | 42385      | Virginia Highlands Community College                                          |
+| 51121     | 42386      | Virginia Tech                                                                 |
+| 51159     | 42387      | Virginia Union University                                                     |
+| 51163     | 42388      | Washington and Lee University                                                 |
+| 51830     | 42389      | William & Mary                                                                |
+| 53033     | 42390      | Bellevue College                                                              |
+| 53073     | 42391      | Bellingham Technical College                                                  |
+| 53061     | 42392      | Cascadia College                                                              |
+| 53037     | 42393      | Central Washington University                                                 |
+| 53041     | 42394      | Centralia College                                                             |
+| 53011     | 42395      | Clark College                                                                 |
+| 53053     | 42396      | Clover Park Technical College                                                 |
+| 53021     | 42397      | Columbia Basin College                                                        |
+| 53063     | 42398      | Eastern Washington University                                                 |
+| 53061     | 42399      | Edmonds College                                                               |
+| 53061     | 42400      | Everett Community College                                                     |
+| 53067     | 42401      | Evergreen State College                                                       |
+| 53063     | 42402      | Gonzaga University                                                            |
+| 53027     | 42403      | Grays Harbor College                                                          |
+| 53033     | 42404      | Green River College                                                           |
+| 53033     | 42405      | Highline College                                                              |
+| 53033     | 42406      | Lake Washington Institute of Technology                                       |
+| 53015     | 42407      | Lower Columbia College                                                        |
+| 53033     | 42408      | North Seattle College                                                         |
+| 53073     | 42409      | Northwest Indian College                                                      |
+| 53035     | 42410      | Olympic College                                                               |
+| 53053     | 42411      | Pacific Lutheran University                                                   |
+| 53009     | 42412      | Peninsula College                                                             |
+| 53053     | 42413      | Pierce College Fort Steilacoom                                                |
+| 53033     | 42414      | Renton Technical College                                                      |
+| 53067     | 42415      | Saint Martin's University                                                     |
+| 53033     | 42416      | Seattle Central College                                                       |
+| 53033     | 42417      | Seattle Pacific University                                                    |
+| 53033     | 42418      | Seattle University                                                            |
+| 53057     | 42419      | Skagit Valley College                                                         |
+| 53033     | 42420      | South Seattle College                                                         |
+| 53063     | 42421      | Spokane Community College                                                     |
+| 53063     | 42422      | Spokane Falls Community College                                               |
+| 53053     | 42423      | Tacoma Community College                                                      |
+| 53053     | 42424      | University of Puget Sound                                                     |
+| 53033     | 42425      | University of Washington                                                      |
+| 53033     | 42426      | University of Washington Bothell                                              |
+| 53053     | 42427      | University of Washington Tacoma                                               |
+| 53071     | 42428      | Walla Walla Community College                                                 |
+| 53075     | 42429      | Washington State University                                                   |
+| 53007     | 42430      | Wenatchee Valley College                                                      |
+| 53073     | 42431      | Western Washington University                                                 |
+| 53073     | 42432      | Whatcom Community College                                                     |
+| 53071     | 42433      | Whitman College                                                               |
+| 53063     | 42434      | Whitworth University                                                          |
+| 53077     | 42435      | Yakima Valley College                                                         |
+| 54001     | 42436      | Alderson Broaddus University                                                  |
+| 54009     | 42437      | Bethany College (W.Va.)                                                       |
+| 54055     | 42438      | Bluefield State College                                                       |
+| 54055     | 42439      | Concord University                                                            |
+| 54083     | 42440      | Davis & Elkins College                                                        |
+| 54049     | 42441      | Fairmont State University                                                     |
+| 54021     | 42442      | Glenville State College                                                       |
+| 54011     | 42443      | Marshall University                                                           |
+| 54107     | 42444      | Ohio Valley University                                                        |
+| 54057     | 42445      | Potomac State College of West Virginia University                             |
+| 54033     | 42446      | Salem University                                                              |
+| 54037     | 42447      | Shepherd University                                                           |
+| 54039     | 42448      | University of Charleston                                                      |
+| 54069     | 42449      | West Liberty University                                                       |
+| 54025     | 42450      | West Virginia School of Osteopathic Medicine                                  |
+| 54039     | 42451      | West Virginia State University                                                |
+| 54061     | 42452      | West Virginia University                                                      |
+| 54019     | 42453      | West Virginia University Institute of Technology                              |
+| 54107     | 42454      | West Virginia University at Parkersburg                                       |
+| 54097     | 42455      | West Virginia Wesleyan College                                                |
+| 54069     | 42456      | Wheeling University                                                           |
+| 55079     | 42457      | Alverno College                                                               |
+| 55105     | 42458      | Beloit College                                                                |
+| 55133     | 42459      | Carroll University                                                            |
+| 55059     | 42460      | Carthage College                                                              |
+| 55089     | 42461      | Concordia University Wisconsin                                                |
+| 55025     | 42462      | Edgewood College                                                              |
+| 55117     | 42463      | Lakeland University                                                           |
+| 55087     | 42464      | Lawrence University                                                           |
+| 55025     | 42465      | Madison Area Technical College                                                |
+| 55055     | 42466      | Maranatha Baptist University                                                  |
+| 55039     | 42467      | Marian University                                                             |
+| 55079     | 42468      | Marquette University                                                          |
+| 55079     | 42469      | Milwaukee School of Engineering                                               |
+| 55079     | 42470      | Mount Mary University                                                         |
+| 55003     | 42471      | Northland College                                                             |
+| 55039     | 42472      | Ripon College                                                                 |
+| 55009     | 42473      | Saint Norbert College                                                         |
+| 55035     | 42474      | University of Wisconsin-Eau Claire                                            |
+| 55009     | 42475      | University of Wisconsin-Green Bay                                             |
+| 55063     | 42476      | University of Wisconsin-La Crosse                                             |
+| 55025     | 42477      | University of Wisconsin-Madison                                               |
+| 55079     | 42478      | University of Wisconsin-Milwaukee                                             |
+| 55139     | 42479      | University of Wisconsin-Oshkosh                                               |
+| 55059     | 42480      | University of Wisconsin-Parkside                                              |
+| 55043     | 42481      | University of Wisconsin-Platteville                                           |
+| 55093     | 42482      | University of Wisconsin-River Falls                                           |
+| 55097     | 42483      | University of Wisconsin-Stevens Point                                         |
+| 55033     | 42484      | University of Wisconsin-Stout                                                 |
+| 55031     | 42485      | University of Wisconsin-Superior                                              |
+| 55127     | 42486      | University of Wisconsin-Whitewater                                            |
+| 55063     | 42487      | Viterbo University                                                            |
+| 55079     | 42488      | Wisconsin Lutheran College                                                    |
+| 56025     | 42489      | Casper College                                                                |
+| 56015     | 42490      | Eastern Wyoming College                                                       |
+| 56001     | 42491      | University of Wyoming                                                         |
+| 56037     | 42492      | Western Wyoming Community College                                             |
++-----------+------------+-------------------------------------------------------------------------------+
+mysql root@(none):covid_data> notee;

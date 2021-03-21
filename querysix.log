@@ -1,0 +1,8 @@
+mysql root@(none):covid_data> select sum(totaldeaths)  from ( select max(`Deaths`) as totaldeaths, `County_ID` from `County_Date_Cases` as Cases group by `County_ID` ) t ;
+
++------------------+
+| sum(totaldeaths) |
++------------------+
+| 491262           |
++------------------+
+mysql root@(none):covid_data> notee;

@@ -1,0 +1,18 @@
+mysql root@(none):covid_data> select C.`Name` , H.`Name` , H.`Hospital_ID`, H.`Ownership`, H.`Emergency_Services`, H.`Type`  from `Hospital` as H join `City` as C on H.`City_ID` = C.`City_ID` where C.`Name` like "Washington%";
++------------+---------------------------------+-------------+---------------------------------------------+--------------------+---------------------------+
+| Name       | Name                            | Hospital_ID | Ownership                                   | Emergency_Services | Type                      |
++------------+---------------------------------+-------------+---------------------------------------------+--------------------+---------------------------+
+| Washington | WASHINGTON COUNTY HOSPITAL      | 47951       | Government - State                          | Yes                | Critical Access Hospitals |
+| Washington | WASHINGTON COUNTY HOSPITAL      | 47991       | Government - Local                          | Yes                | Critical Access Hospitals |
+| Washington | WASHINGTON HOSPITAL, THE        | 48617       | Government - Local                          | Yes                | Acute Care Hospitals      |
+| Washington | ADVANCED SURGICAL HOSPITAL      | 48686       | Proprietary                                 | No                 | Acute Care Hospitals      |
+| Washington | GEORGE WASHINGTON UNIV HOSPITAL | 47655       | Voluntary non-profit - Other                | Yes                | Acute Care Hospitals      |
+| Washington | HOWARD UNIVERSITY HOSPITAL      | 47656       | Voluntary non-profit - Other                | Yes                | Acute Care Hospitals      |
+| Washington | GEORGETOWN UNIVERSITY HOSPITAL  | 47657       | Government - Hospital District or Authority | Yes                | Acute Care Hospitals      |
+| Washington | SIBLEY MEMORIAL HOSPITAL        | 47658       | Voluntary non-profit - Other                | Yes                | Acute Care Hospitals      |
+| Washington | PROVIDENCE HOSPITAL             | 47659       | Voluntary non-profit - Private              | Yes                | Acute Care Hospitals      |
+| Washington | UNITED MEDICAL CENTER           | 47660       | Proprietary                                 | Yes                | Acute Care Hospitals      |
+| Washington | WASHINGTON HOSPITAL CENTER      | 47661       | Voluntary non-profit - Other                | Yes                | Acute Care Hospitals      |
+| Washington | CHILDREN'S HOSPITAL NMC         | 47662       | Voluntary non-profit - Private              | Yes                | Childrens                 |
++------------+---------------------------------+-------------+---------------------------------------------+--------------------+---------------------------+
+mysql root@(none):covid_data> notee;
