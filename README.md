@@ -34,12 +34,10 @@ select C.`Name` , H.`Name` , H.`Hospital_ID`, H.`Ownership`, H.`Emergency_Servic
 
 11) All cities that don’t have a hospital with emergency services
 Create view citiesnoemergency as select a.`City_ID`, GROUP_CONCAT(a.`Emergency_Services`) from `Hospital` a  left outer join ( select `City_ID`, COUNT(*) from `Hospital` where `Emergency_Services` like "Yes%" group by  `City_ID` ) b on a.`City_ID` = b.`City_ID` where b.`City_ID` is null group by `City_ID`;
-
 Create view countiessnoemergency as select c.`City_ID`, c.`Name`, c.`County_ID` from `City` as c join citiesnoemergency where c.`City_ID` = citiesnoemergency.`City_ID`;
 
 12) Number of cases and deaths for counties that have cities without any hospitals having emergency services
 SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
-
 select cdc.`County_ID`, max(cdc.`Cases`) as `Cases`, max(cdc.`Deaths`) as `Deaths`, cno.`Name` as `County N ame`, cno.`City_ID` from `County_Date_Cases` as cdc join countiesnoemergency as cno where cdc.`County_ID` = cno.`County_ID` group by cdc.`County_ID`;
 
 13) All counties that have a college in it
@@ -57,11 +55,11 @@ select avg(totalcases) from ( select max(cdc.`Cases`) as totalcases from `County
 17) Counties having (never_mask + rarely_mask) < 0.1
 select c.`County_ID`, c.`Name`, c.`Never_Mask`, c.`Rarely_Mask` from `County` as c having (c.`Never_Mask` + c.`Rarely_Mask`) < 0.1;
 
-18) Deaths and cases by county with always_mask > 0.75: 
+18) Deaths and cases by county with always_mask > 0.75
 select cdc.`County_ID`, max(cdc.`Cases`) as `Cases`, max(cdc.`Deaths`) as `Deaths`, c.`Always_Mask` from `County` as c join `County_Date_Cases` as cdc where cdc.`County_ID` = c.`County_ID` group by cdc.`County_ID` having (c.`Always_Mask` > 0.75) order by max(cdc.`Cases`) desc;
 
 19) Average cases by county with always_mask > 0.75
 select avg(totalcases) from (  select cdc.`County_ID`, max(cdc.`Cases`) as totalcases, c.`Always_Mask` from `County` as c  join `County_Date_Cases` as cdc  where cdc.`County_ID` = c.`County_ID` group by cdc.`County_ID` having (c.`Always_Mask` > 0.75) ) t;
 
-20) Average cases by county with always_mask < 0.25:
+20) Average cases by county with always_mask < 0.25
 select avg(totalcases)  from ( select cdc.`County_ID`, max(cdc.`Cases`) as totalcases, c.`Always_Mask`  from `County` as c  join `County_Date_Cases` as cdc  where cdc.`County_ID` = c.`County_ID` group by cdc.`County_ID`  having (c.`Always_Mask` < 0.25)  ) t;
