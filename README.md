@@ -8,13 +8,13 @@ select max(Cases.`Cases`) as `Cases`, C.`Name` as `County_Name`, S.`Name` as `St
 
 2) Number of deaths per county, showing the deaths, county and state names
 
-select max(Cases.`Deaths`) as `Deaths`, C.`Name` as `County_Name`, S.`Name` as `State_Name` from `County_Date_Cases` as Cases left join `County` as C on Cases.`County_ID` = C.`County_ID`  left join `State` as S on S.`State_ID` = C.`State_ID` group by C.`County_ID`;
+Create view deathscounty as select max(Cases.`Deaths`) as `Deaths`, C.`Name` as `County_Name`, S.`Name` as `State_Name` from `County_Date_Cases` as Cases left join `County` as C on Cases.`County_ID` = C.`County_ID`  left join `State` as S on S.`State_ID` = C.`State_ID` group by C.`County_ID`;
 
 3) Number of deaths per state, showing the deaths and state names
 
-select max(Cases.`Deaths`) as `Deaths`, S.`Name` as `State_Name` from `County_Date_Cases` as Cases left join `County` as C on Cases.`County_ID` = C.`County_ID` left join `State` as S on S.`State_ID` = C.`State_ID` group by C.`State_ID`;
+select sum(dc.`Deaths`), dc.`State_Name` from deathscounty as dc join `State` as S where S.`Name` = dc.`State_Name` group by S.`Name`;
 
-4) Number of counties per state, number of cases, and average number of cases per county, ordered by descending number of counties
+4) Number of counties per state, highest number of cases in any county in the state, and average number of cases per county, ordered by descending number of counties
 
 select (COUNT(*)/30) as `Number of Counties` , max(CDC.`Cases`) as `Max Cases`,   max(CDC.`Cases`)/(COUNT(*)/30) as `Average`, S.`Name` as `State_Name` from `County_Date_Cases` as CDC left join `County` as C on CDC.`County_ID` = C.`County_ID` left join `State` as S on S.`State_ID` = C.`State_ID` group by C.`State_ID`order by `Number of Counties` desc;
 
@@ -52,7 +52,7 @@ Create view countiessnoemergency as select c.`City_ID`, c.`Name`, c.`County_ID` 
 
 SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
-select cdc.`County_ID`, max(cdc.`Cases`) as `Cases`, max(cdc.`Deaths`) as `Deaths`, cno.`Name` as `County N ame`, cno.`City_ID` from `County_Date_Cases` as cdc join countiesnoemergency as cno where cdc.`County_ID` = cno.`County_ID` group by cdc.`County_ID`;
+select cdc.`County_ID`, max(cdc.`Cases`) as `Cases`, max(cdc.`Deaths`) as `Deaths`, cno.`Name` as `County Name`, cno.`City_ID` from `County_Date_Cases` as cdc join countiesnoemergency as cno where cdc.`County_ID` = cno.`County_ID` group by cdc.`County_ID`;
 
 13) All counties that have a college in it
 
