@@ -1,0 +1,16 @@
+mysql root@(none):covid_data> select cdc.`County_ID`, max(cdc.`Cases`) as `Cases`, max(cdc.`Deaths`) as `Deaths`, cno.`Name` as `County N ame`, cno.`City_ID` from `County_Date_Cases` as cdc join countiesnoemergency as cno where cdc.`County_ID` = cno.`County_ID` group by cdc.`County_ID`;
+
++-----------+--------+--------+----------------+---------+
+| County_ID | Cases  | Deaths | County N ame   | City_ID |
++-----------+--------+--------+----------------+---------+
+| 6059      | 262674 | 4226   | Irvine         | 44900   |
+| 6023      | 3266   | 33     | Arcata         | 44908   |
+| 8071      | 1007   | 11     | Trinidad       | 44953   |
+| 9003      | 71020  | 2299   | West Hartford  | 44970   |
+| 19167     | 4719   | 69     | Sioux Center   | 45171   |
+| 21193     | 2394   | 40     | Hazard         | 45229   |
+| 47089     | 5729   | 119    | Jefferson City | 45893   |
+| 48189     | 6054   | 152    | Plainview      | 45987   |
+| 51013     | 13433  | 237    | Arlington      | 46022   |
++-----------+--------+--------+----------------+---------+
+mysql root@(none):covid_data> notee;

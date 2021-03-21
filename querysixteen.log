@@ -1,0 +1,7 @@
+mysql root@(none):covid_data> select avg(totalcases) from ( select max(cdc.`Cases`) as totalcases from `County_Date_Cases` as cdc join countieswocolleges cwoc  where cdc.`County_ID` = cwoc.`County_ID` group by cdc.`County_ID` ) t;
++-----------------+
+| avg(totalcases) |
++-----------------+
+| 2920.3317       |
++-----------------+
+mysql root@(none):covid_data> notee;

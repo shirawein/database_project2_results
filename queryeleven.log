@@ -1,0 +1,16 @@
+mysql root@(none):covid_data> Create view citiesnoemergency as select a.`City_ID`, GROUP_CONCAT(a.`Emergency_Services`) from `Hospital` a  left outer join ( select `City_ID`, COUNT(*) from `Hospital` where `Emergency_Services` like "Yes%" group by  `City_ID` ) b on a.`City_ID` = b.`City_ID` where b.`City_ID` is null group by `City_ID`;
+mysql root@(none):covid_data> select c.`City_ID`, c.`Name`, c.`County_ID` from `City` as c join citiesnoemergency where c.`City_ID` = citiesnoemergency.`City_ID`;
++---------+----------------+-----------+
+| City_ID | Name           | County_ID |
++---------+----------------+-----------+
+| 44900   | Irvine         | 6059      |
+| 44908   | Arcata         | 6023      |
+| 44953   | Trinidad       | 8071      |
+| 44970   | West Hartford  | 9003      |
+| 45171   | Sioux Center   | 19167     |
+| 45229   | Hazard         | 21193     |
+| 45893   | Jefferson City | 47089     |
+| 45987   | Plainview      | 48189     |
+| 46022   | Arlington      | 51013     |
++---------+----------------+-----------+
+mysql root@(none):covid_data> notee;
